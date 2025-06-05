@@ -1,6 +1,6 @@
 {
 	"name": "transit-map",
-	"description": "Generate a schematic map (“metro map”) for a given (transit) network graph using Mixed Integer Programming.",
+	"description": "Generate a schematic map (metro map) for a given (transit) network graph using Mixed Integer Programming with SCIP solver.",
 	"version": "0.1.0",
 	"keywords": [
 		"transit",
@@ -10,7 +10,9 @@
 		"graph",
 		"schematic",
 		"layout",
-		"metro"
+		"metro",
+		"scip",
+		"optimization"
 	],
 	"author": "Julius Tens <mail@juliustens.eu>",
 	"homepage": "https://github.com/juliuste/transit-map",
@@ -22,7 +24,8 @@
 		"cli.js",
 		"prepare-graph/*",
 		"generate-lp/*",
-		"revise-solution/*"
+		"revise-solution/*",
+		"parse-scip-solution.js"
 	],
 	"bin": {
 		"transit-map": "./cli.js"
@@ -33,11 +36,10 @@
 		"get-stdin": "^6.0.0",
 		"lodash": "^4.17.10",
 		"mri": "^1.1.1",
-		"parse-gurobi-solution": "^0.0.0",
 		"pify": "^3.0.0",
 		"randomatic": "^3.0.0",
 		"robust-determinant": "^1.1.0",
-		"robust-segment-intersect": "^1.0.1",
+		"robust-segment-intersect": "^1.0.0",
 		"segseg": "^0.2.2",
 		"stream-to-promise": "^2.2.0",
 		"svg-transit-map": "^0.0.1",

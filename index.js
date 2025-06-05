@@ -37,14 +37,14 @@ const Solver = (networkGraph) => {
     return ({generateLP, reviseSolution})
 }
 
-const runGurobi = (cwd, verbose=false) => {
+const runSCIP = (cwd, verbose=false) => {
     // todo: escape paths?
     const problemPath = path.resolve(cwd, 'problem.lp')
     const solutionPath = path.resolve(cwd, 'solution.sol')
-    const gurobiPromise = spawn('gurobi_cl', [`ResultFile=${solutionPath}`, problemPath], {cwd})
-    if (verbose) gurobiPromise.childProcess.stdout.pipe(process.stderr) // sic.
-    gurobiPromise.childProcess.stderr.on('data', e => {throw new Error(e)})
-    return gurobiPromise
+    const scipPromise = spawn('scip', ['-c', `read ${problemPath}`, '-c', 'optimize', '-c', `write solution ${solutionPath}`, '-c', 'quit'], {cwd})
+    if (verbose) scipPromise.childProcess.stdout.pipe(process.stderr)
+    scipPromise.childProcess.stderr.on('data', e => {throw new Error(e)})
+    return scipPromise
 }
 
 const transitMap = async (networkGraph, opt) => {
@@ -59,8 +59,8 @@ const transitMap = async (networkGraph, opt) => {
     await solver.generateLP(lpStream)
 
     // run solver
-    await (runGurobi(options.workDir, options.verbose).catch(e => {
-        console.error('Make sure `gurobi_cl` is in your $PATH')
+    await (runSCIP(options.workDir, options.verbose).catch(e => {
+        console.error('Make sure `scip` is in your $PATH')
         throw new Error(e)
     }))
 

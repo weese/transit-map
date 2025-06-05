@@ -96,7 +96,7 @@ const createGenerateLP = (graph, settings) => (outputStream) => {
                     coefficients.q.push(1)
                     // only angles >= 90°
                     constraints.push(`q${numAdjacentEdgeConstraints} <= 2`)
-                } else {
+                } else {
                     // no line bend
                     coefficients.q.push(.25)
                 }
@@ -136,12 +136,12 @@ const createGenerateLP = (graph, settings) => (outputStream) => {
     // write model
     // 1. objective function
     w('Minimize')
-        // sum of squared edge length variables l_n
-        const lengths = continuous.l.map(l => `3 ${l} ^ 2`).join(' + ')
+        // linearized sum of edge lengths (removed squared terms)
+        const lengths = continuous.l.map(l => `3 ${l}`).join(' + ')
         // sum of angle differences in all "dimensions"
         const angles = integer.q.map((q, index) => `${4 * coefficients.q[index]} ${q}`).join(' + ')
         // write function
-        wt(`${angles} + [ ${lengths} ] / 2`)
+        wt(`${angles} + ${lengths}`)
 
     // 2. constraints
     w('Subject To')
@@ -150,9 +150,7 @@ const createGenerateLP = (graph, settings) => (outputStream) => {
         wt(`vy0 = ${settings.offset}`)
 
         constraints.forEach(c => wt(c))
-
-    // 3. lazy constraints
-    w('Lazy Constraints')
+        // Add lazy constraints as regular constraints for SCIP
         lazyConstraints.forEach(l => wt(l))
 
     // 4. bounds

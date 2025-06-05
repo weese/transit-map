@@ -1,0 +1,4273 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9984509609, 53.5404867700]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc604b20",
+        "station_id": "de:02000:11941:1:119411",
+        "station_label": "Überseequartier"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1246855424, 53.5385830716]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6733c0",
+        "station_id": "de:02000:22900:1:229000",
+        "station_label": "Merkenstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0409213397, 53.5792352331]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6a9f70",
+        "station_id": "de:02000:70902:1:709005",
+        "station_label": "Dehnhaide"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9864811786, 53.5555667903]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6bab40",
+        "station_id": "de:02000:11910:1:119020",
+        "station_label": "Gänsemarkt (Oper)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0835023467, 53.5537757222]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6bad50",
+        "station_id": "de:02000:61902:1:619004",
+        "station_label": "Horner Rennbahn"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1457724805, 53.6798852653]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6bbd30",
+        "station_id": "090000729002",
+        "station_label": "729002"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0275544703, 53.5694334307]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc6c1730",
+        "station_id": "de:02000:70904:1:709009",
+        "station_label": "Mundsburg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0660336268, 53.5542103858]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc717940",
+        "station_id": "de:02000:61901:2:619003",
+        "station_label": "Rauhes Haus"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0400620437, 53.5879688216]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "excluded_conn": [
+          {
+            "line": "0xaaab13860720",
+            "node_from": "0xaaab025543b0",
+            "node_to": "0xaaab00e65ef0"
+          }, 
+          {
+            "line": "0xaaab13860720",
+            "node_from": "0xaaab00e65ef0",
+            "node_to": "0xaaab025543b0"
+          }],
+        "id": "0xaaaafc78d860"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9947355464, 53.6777394041]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc811c80",
+        "station_id": "090000369007",
+        "station_label": "369007"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9897245703, 53.6957038495]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc837d00",
+        "station_id": "de:01060:36901:2:369003",
+        "station_label": "Richtweg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0668043800, 53.5717611449]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc8d6d60",
+        "station_id": "de:02000:60902:1:609004",
+        "station_label": "Wandsbek Markt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0176574181, 53.6609922065]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc962630",
+        "station_id": "de:02000:92902:1:929004",
+        "station_label": "Langenhorn Nord"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0266709780, 53.6325519328]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc9ab370",
+        "station_id": "de:02000:71901:1:719003",
+        "station_label": "Fuhlsbüttel"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0355898933, 53.5647828660]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafc9d7ba0",
+        "station_id": "de:02000:10901:1:109003",
+        "station_label": "Wartenau"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1397726576, 53.6269895770]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafca102b0",
+        "station_id": "de:02000:65900:1:659001",
+        "station_label": "Berne"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0061511130, 53.5492671049]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafca1b0e0",
+        "station_id": "de:02000:10907:1:109019",
+        "station_label": "Steinstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1631999469, 53.6504886610]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafca1f430",
+        "station_id": "de:02000:71904:2:719008",
+        "station_label": "Volksdorf"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1561380472, 53.6389411901]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafcbdc810",
+        "station_id": "de:02000:71905:1:719010",
+        "station_label": "Meiendorfer Weg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9833690576, 53.5446855090]
+      },
+      "properties": {
+        "deg": "4",
+        "deg_in": "4",
+        "deg_out": "4",
+        "id": "0xaaaafceeb5d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9961226303, 53.5946182591]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafcf07cf0",
+        "station_id": "de:02000:90903:1:909007",
+        "station_label": "Hudtwalckerstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0372855493, 53.5744547171]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafcf4fb90",
+        "station_id": "de:02000:70903:1:709007",
+        "station_label": "Hamburger Straße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0268842915, 53.5644900072]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafd24f770",
+        "station_id": "de:02000:10900:1:109001",
+        "station_label": "Uhlandstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9693169365, 53.5643582359]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafd2623b0",
+        "station_id": "de:02000:84950:1:849010",
+        "station_label": "Sternschanze (Messe)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0465507320, 53.5676634531]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafd30dc50",
+        "station_id": "de:02000:60904:1:609008",
+        "station_label": "Ritterstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9925327301, 53.7075347900]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaaafd463a80",
+        "station_id": "de:01060:36961:1:369000",
+        "station_label": "Norderstedt Mitte"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9851773638, 53.5834023200]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaafd6caca0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9911211476, 53.5541105539]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaafdab1b80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0148670448, 53.5907332120]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafdb4ac20",
+        "station_id": "de:02000:70905:1:709011",
+        "station_label": "Borgweg (Stadtpark)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0555154063, 53.5555402777]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafdb9c190",
+        "station_id": "de:02000:10909:1:109025",
+        "station_label": "Hammer Kirche"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0288037582, 53.5601546531]
+      },
+      "properties": {
+        "deg": "4",
+        "deg_in": "4",
+        "deg_out": "4",
+        "id": "0xaaaafdbc5620",
+        "station_id": "de:02000:10902:1:109005",
+        "station_label": "Lübecker Straße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9932974461, 53.5900008701]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaafddc8c50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9624139445, 53.5695841284]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafdee8e10",
+        "station_id": "de:02000:84902:1:849004",
+        "station_label": "Christuskirche"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1021277553, 53.5983206083]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafe193710",
+        "station_id": "de:02000:63901:1:639002",
+        "station_label": "Trabrennbahn"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1071080838, 53.5423662451]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafe5c3ec0",
+        "station_id": "de:02000:61904:1:619008",
+        "station_label": "Billstedt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0022306705, 53.5513154820]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafe9c4870",
+        "station_id": "de:02000:11904:1:119008",
+        "station_label": "Mönckebergstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0443534404, 53.5872208460]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafe9d9100",
+        "station_id": "de:02000:9970950:1:99709025",
+        "station_label": "Barmbek(2)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9763589728, 53.5776255138]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafeb43330",
+        "station_id": "de:02000:90908:1:909019",
+        "station_label": "Hoheluftbrücke"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9921194954, 53.5537054840]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaafeb470a0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9853991203, 53.5837421784]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafed6e480",
+        "not_serving": ["0xaaab138609d0"],
+        "station_id": "de:02000:90907:1:909017",
+        "station_label": "Eppendorfer Baum"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2428071892, 53.6612185354]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaafedf7640",
+        "station_id": "de:01062:35901:1:359004",
+        "station_label": "Ahrensburg Ost"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9701185246, 53.5676570223]
+      },
+      "properties": {
+        "deg": "4",
+        "deg_in": "4",
+        "deg_out": "4",
+        "id": "0xaaaaff132070",
+        "station_id": "de:02000:84903:1:849008",
+        "station_label": "Schlump"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1372156143, 53.6943931580]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaaaff161020",
+        "station_id": "de:02000:72900:1:729001",
+        "station_label": "Ohlstedt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0078507941, 53.5519553212]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaaff185290"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9440523921, 53.5928944818]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff1e9620",
+        "station_id": "de:02000:83900:1:839001",
+        "station_label": "Hagenbecks Tierpark"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9813330786, 53.5442397334]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff336650",
+        "station_id": "de:02000:11907:1:119014",
+        "station_label": "Baumwall (Elbphilharmonie)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0123684674, 53.5525013032]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaaff4e3880"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9903072647, 53.5543545175]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaaaff4eeaf0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9881491585, 53.5818091162]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff4ef980",
+        "station_id": "de:02000:90905:1:909011",
+        "station_label": "Klosterstern"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9687386349, 53.5569411504]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff6368a0",
+        "station_id": "de:02000:11911:1:119022",
+        "station_label": "Feldstraße (Heiligengeistfeld)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9527513614, 53.6347939582]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff7a9e70",
+        "station_id": "de:02000:91901:1:919002",
+        "station_label": "Schippelsweg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2607137273, 53.6531657630]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff943640",
+        "station_id": "de:01062:35902:1:359006",
+        "station_label": "Schmalenbeck"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9518089324, 53.6202153774]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff953b60",
+        "station_id": "de:02000:91903:1:919007",
+        "station_label": "Niendorf Markt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0159535093, 53.6751913858]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaff9efce0",
+        "station_id": "de:02000:92901:1:929002",
+        "station_label": "Kiwittsmoor"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0576245824, 53.5698550107]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaffa8dc70",
+        "station_id": "de:02000:60951:2:609007",
+        "station_label": "Wandsbeker Chaussee"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1175306840, 53.6071031165]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaaaffaea690",
+        "station_id": "de:02000:63900:2:639000",
+        "station_label": "Farmsen"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9958448195, 53.5506099866]
+      },
+      "properties": {
+        "deg": "4",
+        "deg_in": "4",
+        "deg_out": "4",
+        "id": "0xaaaaffdd0b90"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2564440031, 53.6553261888]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab001728f0",
+        "station_id": "090000359012",
+        "station_label": "359012"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9526794304, 53.5716819473]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00244da0",
+        "station_id": "de:02000:84901:1:849003",
+        "station_label": "Emilienstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1391664266, 53.5410157066]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab0024eb10",
+        "station_id": "de:02000:22901:2:229003",
+        "station_label": "Steinfurther Allee"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1556525300, 53.6647367368]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00458340",
+        "station_id": "de:02000:72902:1:729009",
+        "station_label": "Buckhorn"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1943651774, 53.6551074241]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00a04510",
+        "station_id": "090000349000",
+        "station_label": "349000"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9909922943, 53.5888145924]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00a549b0",
+        "station_id": "de:02000:90904:1:909015",
+        "station_label": "Kellinghusenstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0010716251, 53.5903588421]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00b75a60",
+        "station_id": "de:02000:90906:1:909013",
+        "station_label": "Sierichstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9947554338, 53.5999027220]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00b7a960",
+        "station_id": "de:02000:90902:1:909004",
+        "station_label": "Lattenkamp (Sporthalle)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0092230918, 53.5521445598]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00bd01e0",
+        "station_id": "de:02000:10906:2:109016",
+        "station_label": "Hauptbahnhof Süd"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0219943101, 53.6093058563]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00cd56f0",
+        "station_id": "de:02000:90900:1:909000",
+        "station_label": "Sengelmannstraße (City Nord)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0249646438, 53.5540565974]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaab00d88ac0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9766001935, 53.5581688106]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00dead70",
+        "station_id": "de:02000:11909:1:119018",
+        "station_label": "Messehallen"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9701018150, 53.5505106086]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00e0ead0",
+        "station_id": "de:02000:80900:1:809000",
+        "station_label": "St.Pauli"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9947358596, 53.5504938932]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00e474b0",
+        "station_id": "de:02000:11905:1:119010",
+        "station_label": "Rathaus"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0522447644, 53.5935566687]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00e65ef0",
+        "station_id": "de:02000:70900:1:709000",
+        "station_label": "Habichtstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0167942119, 53.6396613323]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00ecf670",
+        "station_id": "de:02000:71900:1:719000",
+        "station_label": "Fuhlsbüttel Nord"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9477306439, 53.5820505286]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00f27080",
+        "station_id": "de:02000:83901:1:839002",
+        "station_label": "Lutterothstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0172760350, 53.6492107718]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00f6d2d0",
+        "station_id": "de:02000:92903:1:929006",
+        "station_label": "Langenhorn Markt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0231167043, 53.5534156623]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00fe5ec0",
+        "station_id": "de:02000:10952:1:109011",
+        "station_label": "Berliner Tor"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0315571480, 53.6207466093]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab00ffd510",
+        "station_id": "de:02000:90950:1:909021",
+        "station_label": "Ohlsdorf"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0076034341, 53.5406334119]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab010210e0",
+        "station_id": "de:02000:11942:1:119422",
+        "station_label": "HafenCity Universität"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1502060054, 53.6752704397]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab010e5d30",
+        "station_id": "090000729006",
+        "station_label": "729006"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9932756876, 53.5527550983]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab0115b430",
+        "station_id": "de:02000:11950:3:119027",
+        "station_label": "Jungfernstieg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9502588411, 53.6407338766]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaab012baad0",
+        "station_id": "de:02000:91900:1:919000",
+        "station_label": "Niendorf Nord"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0334238518, 53.6279955915]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab012d3930",
+        "station_id": "de:02000:71902:1:719004",
+        "station_label": "Klein Borstel"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2804486415, 53.6531166423]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01302860",
+        "station_id": "de:01062:35903:1:359008",
+        "station_label": "Kiekut"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1475988203, 53.6780197255]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01403090",
+        "station_id": "de:01062:72901:1:729004",
+        "station_label": "Hoisbüttel"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9869595792, 53.5483854590]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab014b2a30",
+        "station_id": "de:02000:11906:1:119012",
+        "station_label": "Rödingsmarkt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9503749446, 53.6282066701]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab015194e0",
+        "station_id": "de:02000:91902:2:919005",
+        "station_label": "Joachim-Mähl-Straße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0693618366, 53.5917397754]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaab01522790"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9934934339, 53.6779221351]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01545b80",
+        "station_id": "090000369006",
+        "station_label": "369006"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0014464633, 53.6781369096]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01555120",
+        "station_id": "de:02000:92900:1:929001",
+        "station_label": "Ochsenzoll"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0051577083, 53.5540332354]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01684440",
+        "station_id": "de:02000:10905:2:109012",
+        "station_label": "Hauptbahnhof Nord"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0189750184, 53.5566210665]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01696480",
+        "station_id": "de:02000:10903:1:109008",
+        "station_label": "Lohmühlenstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9516357783, 53.5760833703]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab016f96d0",
+        "station_id": "de:02000:84900:2:849001",
+        "station_label": "Osterstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9893013334, 53.5589715085]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab017d3b60",
+        "station_id": "de:02000:11901:1:119003",
+        "station_label": "Stephansplatz (Oper/CCH)"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0679580094, 53.5817461242]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab018b7290",
+        "station_id": "de:02000:60901:1:609002",
+        "station_label": "Straßburger Straße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9860303783, 53.6854486293]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab019561a0",
+        "station_id": "de:01060:36902:1:369005",
+        "station_label": "Garstedt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0116043869, 53.6063578159]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01a39c40",
+        "station_id": "de:02000:90901:1:909003",
+        "station_label": "Alsterdorf"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1287069547, 53.6175863438]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01ccd9e0",
+        "station_id": "de:02000:64900:1:649012",
+        "station_label": "Oldenfelde"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9891304636, 53.5728061497]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01db4710",
+        "station_id": "de:02000:11900:1:119001",
+        "station_label": "Hallerstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1855874984, 53.6529454502]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01dbd7b0",
+        "station_id": "de:02000:71907:1:719014",
+        "station_label": "Buchenkamp"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9944118229, 53.5532480687]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01e6ae40",
+        "station_id": "de:02000:11950:3:119027",
+        "station_label": "Jungfernstieg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9713160278, 53.5458974890]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01e85ae0",
+        "station_id": "de:02000:80950:1:809002",
+        "station_label": "Landungsbrücken"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0645245774, 53.5866069420]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01ea61f0",
+        "station_id": "de:02000:60900:1:609001",
+        "station_label": "Alter Teichweg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2200211797, 53.6645901344]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01fba4b0",
+        "station_id": "de:01062:34900:1:349002",
+        "station_label": "Ahrensburg West"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9452681617, 53.6038865327]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab01fea0b0",
+        "station_id": "de:02000:91904:2:919009",
+        "station_label": "Hagendeel"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1499328071, 53.5287247376]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaab020a6fa0",
+        "station_id": "de:02000:22902:1:229004",
+        "station_label": "Mümmelmannsberg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1643477951, 53.6530601540]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "excluded_conn": [
+          {
+            "line": "0xaaab138609d0",
+            "node_from": "0xaaab01dbd7b0",
+            "node_to": "0xaaab00458340"
+          }, 
+          {
+            "line": "0xaaab138609d0",
+            "node_from": "0xaaab00458340",
+            "node_to": "0xaaab01dbd7b0"
+          }],
+        "id": "0xaaab021bf160"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0870365696, 53.5536954805]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaab022cf6b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0321621944, 53.5890499093]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab025543b0",
+        "station_id": "de:02000:70906:2:709017",
+        "station_label": "Saarlandstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0416556536, 53.5557448475]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab02555dc0",
+        "station_id": "de:02000:10908:1:109023",
+        "station_label": "Burgstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0010918546, 53.5476970453]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab02584390",
+        "station_id": "de:02000:11903:1:119006",
+        "station_label": "Meßberg"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0748507487, 53.5924879771]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab025e0360",
+        "station_id": "de:02000:63902:2:639004",
+        "station_label": "Wandsbek-Gartenstadt"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.2866447361, 53.6626178109]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaab025f2760",
+        "station_id": "de:01062:35904:1:359010",
+        "station_label": "Großhansdorf"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0868795489, 53.5538581166]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab02650e00"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0160814573, 53.5526730106]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaab0272da80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0236293358, 53.5352316639]
+      },
+      "properties": {
+        "deg": "1",
+        "deg_in": "1",
+        "deg_out": "1",
+        "id": "0xaaab0281e8e0",
+        "station_id": "de:02000:11943:2:119432",
+        "station_label": "Elbbrücken"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0864590238, 53.5538362303]
+      },
+      "properties": {
+        "deg": "3",
+        "deg_in": "3",
+        "deg_out": "3",
+        "id": "0xaaab02834390"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.0964155176, 53.5467940199]
+      },
+      "properties": {
+        "deg": "2",
+        "deg_in": "2",
+        "deg_out": "2",
+        "id": "0xaaab02834c90",
+        "station_id": "de:02000:61903:2:619007",
+        "station_label": "Legienstraße"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9984509609, 53.5404867700], [9.9980040736, 53.5404599668], [9.9975586505, 53.5404332514], [9.9950588262, 53.5402661705], [9.9940707724, 53.5402209098], [9.9925267576, 53.5401688511], [9.9914332340, 53.5402541595], [9.9904277877, 53.5404005888], [9.9900305107, 53.5404945818], [9.9889849887, 53.5408142712], [9.9885650932, 53.5410067620], [9.9863544292, 53.5420623623], [9.9858152201, 53.5423458590], [9.9850669348, 53.5428318580], [9.9843078760, 53.5433337292], [9.9838147459, 53.5438557199], [9.9836910833, 53.5440372192], [9.9834962071, 53.5444295377], [9.9833690576, 53.5446855090]]
+      },
+      "properties": {
+        "dbg_lines": "U4",
+        "from": "0xaaaafc604b20",
+        "id": "0xaaab005ad5a0",
+        "lines": [
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafceeb5d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1246855424, 53.5385830716], [10.1242408160, 53.5385456694], [10.1222154295, 53.5383753307], [10.1203374300, 53.5382802762], [10.1198298574, 53.5383003047], [10.1188758637, 53.5384316681], [10.1182582177, 53.5386066459], [10.1177050260, 53.5387930083], [10.1139587856, 53.5403212746], [10.1129872792, 53.5406689048], [10.1121519369, 53.5409348673], [10.1104416904, 53.5414153930], [10.1075130100, 53.5422507483], [10.1071080838, 53.5423662451]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaafc6733c0",
+        "id": "0xaaab023474c0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaafe5c3ec0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0409213397, 53.5792352331], [10.0410398975, 53.5794924444], [10.0411595942, 53.5797521249], [10.0413469295, 53.5799712898], [10.0456774925, 53.5836178143], [10.0460304782, 53.5839783889], [10.0472031972, 53.5852755165], [10.0473118638, 53.5855902885], [10.0474011883, 53.5859227995], [10.0473670212, 53.5861748671], [10.0473337844, 53.5862618722], [10.0471784751, 53.5864594960], [10.0470585993, 53.5865518316], [10.0467914238, 53.5866636942], [10.0454931244, 53.5870036703], [10.0447811021, 53.5871393518], [10.0443534404, 53.5872208460]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafc6a9f70",
+        "id": "0xaaab00f56e40",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafe9d9100"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9864811786, 53.5555667903], [9.9869303320, 53.5555656315], [9.9873769578, 53.5555644792], [9.9875417993, 53.5555470343], [9.9886127678, 53.5553138761], [9.9892082080, 53.5551152805], [9.9901518054, 53.5546047814], [9.9903072647, 53.5543545175]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaafc6bab40",
+        "id": "0xaaab01646020",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaaff4eeaf0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0835023467, 53.5537757222], [10.0839507572, 53.5537603561], [10.0850032474, 53.5537737621], [10.0850856420, 53.5538186536], [10.0852146760, 53.5537814782], [10.0853225375, 53.5537805852], [10.0854869889, 53.5538101527], [10.0855717808, 53.5537888893], [10.0856790147, 53.5537293736], [10.0856964256, 53.5537283076], [10.0858464431, 53.5537827596], [10.0860070221, 53.5537843108], [10.0860335768, 53.5537623414], [10.0864590238, 53.5538362303]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaaafc6bad50",
+        "id": "0xaaaaff82c5f0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab02834390"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1457724805, 53.6798852653], [10.1459977913, 53.6796551230], [10.1473735096, 53.6782498767], [10.1475988203, 53.6780197255]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc6bbd30",
+        "id": "0xaaab017e95f0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01403090"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0275544703, 53.5694334307], [10.0279169261, 53.5695909608], [10.0298915826, 53.5704491730], [10.0321189857, 53.5713997403], [10.0333383139, 53.5719051930], [10.0357648109, 53.5729359337], [10.0363643315, 53.5733012030], [10.0366330960, 53.5735561781], [10.0371077150, 53.5742098109], [10.0372855493, 53.5744547171]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafc6c1730",
+        "id": "0xaaab02609310",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafcf4fb90"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0660336268, 53.5542103858], [10.0664704572, 53.5541483019], [10.0686324960, 53.5538410238], [10.0722582354, 53.5535141276], [10.0724896684, 53.5535012304], [10.0731183645, 53.5534950306], [10.0754571524, 53.5534984929], [10.0769392709, 53.5535088048], [10.0785385047, 53.5535634353], [10.0812344286, 53.5536941214], [10.0826400140, 53.5537575632], [10.0830551127, 53.5537522058], [10.0835023467, 53.5537757222]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaaafc717940",
+        "id": "0xaaaaff9cd700",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafc6bad50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0400620437, 53.5879688216], [10.0397518139, 53.5881616231], [10.0396132656, 53.5882596439], [10.0393583149, 53.5883710858], [10.0387696487, 53.5887229992], [10.0385231603, 53.5888920507], [10.0382698312, 53.5891502803], [10.0381382264, 53.5893383789], [10.0379690645, 53.5899073905], [10.0379874180, 53.5903804816], [10.0381165535, 53.5907315613], [10.0384837943, 53.5912254728], [10.0388577168, 53.5915282469], [10.0397017114, 53.5920129397], [10.0405754581, 53.5923486244], [10.0415262030, 53.5925800619], [10.0423634907, 53.5926890493], [10.0466722422, 53.5931111510], [10.0503875093, 53.5934608394], [10.0516144455, 53.5935364959], [10.0517962583, 53.5935423147], [10.0522447644, 53.5935566687]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafc78d860",
+        "id": "0xaaab02264400",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab00e65ef0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0400620437, 53.5879688216], [10.0396144161, 53.5879908093], [10.0395115192, 53.5879968370], [10.0368634967, 53.5885730825], [10.0362655780, 53.5886658438], [10.0350677801, 53.5887960820], [10.0326067697, 53.5890119235], [10.0321621944, 53.5890499093]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafc78d860",
+        "id": "0xaaab00fb8e30",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab025543b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9947355464, 53.6777394041], [9.9951823000, 53.6777119151], [9.9955758372, 53.6776877005], [9.9970140815, 53.6777755889], [10.0010014998, 53.6781006371], [10.0014464633, 53.6781369096]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc811c80",
+        "id": "0xaaab003ee480",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01555120"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9897245703, 53.6957038495], [9.9894828648, 53.6954797031], [9.9881052690, 53.6942021618], [9.9875848417, 53.6937048594], [9.9866119807, 53.6927249002], [9.9859477600, 53.6916257091], [9.9857652057, 53.6909953287], [9.9855926503, 53.6903548385], [9.9855920452, 53.6901613428], [9.9857033038, 53.6888249603], [9.9859558024, 53.6861889014], [9.9860036290, 53.6857141555], [9.9860303783, 53.6854486293]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc837d00",
+        "id": "0xaaab018ed7a0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab019561a0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0668043800, 53.5717611449], [10.0663774600, 53.5716782614], [10.0617011870, 53.5707789791], [10.0586181235, 53.5700942928], [10.0580408121, 53.5699552546], [10.0576245824, 53.5698550107]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc8d6d60",
+        "id": "0xaaab004b0870",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaffa8dc70"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0176574181, 53.6609922065], [10.0175316112, 53.6607367057], [10.0169261015, 53.6595069560], [10.0163383754, 53.6571056349], [10.0164048368, 53.6563734203], [10.0166754124, 53.6543032289], [10.0170280063, 53.6517564932], [10.0171288708, 53.6508750436], [10.0172525264, 53.6494766341], [10.0172760350, 53.6492107718]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc962630",
+        "id": "0xaaab0020b310",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00f6d2d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0266709780, 53.6325519328], [10.0270405896, 53.6324006055], [10.0291399893, 53.6315410537], [10.0292878739, 53.6314475718], [10.0331832803, 53.6282990069], [10.0332342930, 53.6282370694], [10.0334238518, 53.6279955915]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc9ab370",
+        "id": "0xaaab01f3dc10",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab012d3930"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0355898933, 53.5647828660], [10.0352332423, 53.5646207125], [10.0347486768, 53.5644004009], [10.0344434469, 53.5642570413], [10.0337441312, 53.5636974008], [10.0323357311, 53.5622247295], [10.0311732821, 53.5613311667], [10.0295969683, 53.5604883600], [10.0291771341, 53.5603029490], [10.0288037582, 53.5601546531]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafc9d7ba0",
+        "id": "0xaaab00dd4db0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafdbc5620"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1397726576, 53.6269895770], [10.1400308508, 53.6272075368], [10.1417049572, 53.6286207451], [10.1429663970, 53.6295142544], [10.1455089109, 53.6313013147], [10.1529725689, 53.6365187299], [10.1549234099, 53.6379806132], [10.1558686246, 53.6387281233], [10.1558686246, 53.6387281233], [10.1561380472, 53.6389411901]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafca102b0",
+        "id": "0xaaab00ffd480",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafcbdc810"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0061511130, 53.5492671049], [10.0061114840, 53.5490012883], [10.0058475169, 53.5484749629], [10.0057284012, 53.5483232229], [10.0054009117, 53.5480586070], [10.0050790053, 53.5478671894], [10.0047775346, 53.5477384307], [10.0040818016, 53.5475598564], [10.0033710292, 53.5474899550], [10.0015358505, 53.5476567031], [10.0010918546, 53.5476970453]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafca1b0e0",
+        "id": "0xaaab028e1bb0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab02584390"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1631999469, 53.6504886610], [10.1633350914, 53.6507425437], [10.1633707363, 53.6508095061], [10.1641269701, 53.6523506635], [10.1641203562, 53.6524156977], [10.1642472635, 53.6528007031], [10.1643477951, 53.6530601540]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafca1f430",
+        "id": "0xaaab01fe5d90",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab021bf160"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1561380472, 53.6389411901], [10.1564074699, 53.6391542559], [10.1571724755, 53.6397592343], [10.1581603251, 53.6405655684], [10.1585627893, 53.6410496999], [10.1589631626, 53.6417753029], [10.1591804256, 53.6427700098], [10.1592763750, 53.6433791626], [10.1592727857, 53.6455156547], [10.1595199435, 53.6463229265], [10.1600628066, 53.6470612950], [10.1607073220, 53.6479207121], [10.1620669360, 53.6492412349], [10.1630504818, 53.6502078735], [10.1630648025, 53.6502347767], [10.1631999469, 53.6504886610]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafcbdc810",
+        "id": "0xaaab007ab220",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafca1f430"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9833690576, 53.5446855090], [9.9833277516, 53.5449512647], [9.9833017073, 53.5451188287], [9.9834611391, 53.5459438217], [9.9846122759, 53.5479091105], [9.9846527773, 53.5480252032], [9.9848127437, 53.5486338634], [9.9847941755, 53.5489768552], [9.9847069250, 53.5492491747], [9.9845434137, 53.5496700613], [9.9835410608, 53.5512447502], [9.9834018523, 53.5518819142], [9.9834343772, 53.5523044248], [9.9837013780, 53.5529065726], [9.9838798987, 53.5531479115], [9.9843714803, 53.5535959363], [9.9847373925, 53.5538485248], [9.9852870067, 53.5541198763], [9.9858577175, 53.5543261452], [9.9865443809, 53.5544807642], [9.9869935752, 53.5545716984], [9.9876801987, 53.5546198021], [9.9883153512, 53.5545997670], [9.9891359813, 53.5545224706], [9.9898595888, 53.5543339781], [9.9903072647, 53.5543545175]]
+      },
+      "properties": {
+        "dbg_lines": "U4",
+        "from": "0xaaaafceeb5d0",
+        "id": "0xaaaafc791ea0",
+        "lines": [
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaaff4eeaf0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9961226303, 53.5946182591], [9.9962137922, 53.5943572340], [9.9962237021, 53.5943288589], [9.9961839040, 53.5939397944], [9.9958661974, 53.5925849589], [9.9953869548, 53.5917942899], [9.9951889761, 53.5915597231], [9.9946537188, 53.5910265535], [9.9934421674, 53.5902532173], [9.9932974461, 53.5900008701]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafcf07cf0",
+        "id": "0xaaaafe4b41c0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafddc8c50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0372855493, 53.5744547171], [10.0374633836, 53.5746996218], [10.0376509832, 53.5749579732], [10.0379592208, 53.5752076513], [10.0391435885, 53.5758463106], [10.0394670692, 53.5761056606], [10.0398597283, 53.5769319963], [10.0408027819, 53.5789780202], [10.0409213397, 53.5792352331]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafcf4fb90",
+        "id": "0xaaab028907e0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafc6a9f70"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0268842915, 53.5644900072], [10.0267287329, 53.5647402595], [10.0255976455, 53.5665598329], [10.0254734767, 53.5667935899], [10.0253372134, 53.5671279316], [10.0253420907, 53.5675664307], [10.0254965345, 53.5679638714], [10.0257064048, 53.5682324871], [10.0260314676, 53.5685208412], [10.0262002545, 53.5686513462], [10.0272281510, 53.5692501454], [10.0275544703, 53.5694334307]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafd24f770",
+        "id": "0xaaab015e9e00",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafc6c1730"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9693169365, 53.5643582359], [9.9693804013, 53.5640941480], [9.9694250693, 53.5639082755], [9.9694906087, 53.5637839158], [9.9698913453, 53.5632841525], [9.9700047110, 53.5630180481], [9.9700632513, 53.5628548767], [9.9700826375, 53.5626906667], [9.9701009420, 53.5623915934], [9.9697149998, 53.5609933982], [9.9692336181, 53.5594722104], [9.9689704922, 53.5587077940], [9.9686315880, 53.5578032516], [9.9686001585, 53.5575828462], [9.9686815257, 53.5572057943], [9.9687386349, 53.5569411504]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafd2623b0",
+        "id": "0xaaab01426160",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaaff6368a0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0465507320, 53.5676634531], [10.0461251070, 53.5675782453], [10.0453846584, 53.5674300111], [10.0407902253, 53.5668540020], [10.0399536672, 53.5666538648], [10.0397055422, 53.5665907161], [10.0392354094, 53.5664339848], [10.0382639560, 53.5659986249], [10.0359465444, 53.5649450189], [10.0355898933, 53.5647828660]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafd30dc50",
+        "id": "0xaaaafc9d7cb0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc9d7ba0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9925327301, 53.7075347900], [9.9925521915, 53.7072691792], [9.9926631889, 53.7057542472], [9.9927949968, 53.7037818110], [9.9928556060, 53.7011219602], [9.9927725375, 53.7003257695], [9.9927237267, 53.7000985958], [9.9921848068, 53.6985656165], [9.9919785202, 53.6982017543], [9.9917006444, 53.6978362200], [9.9909398896, 53.6968878409], [9.9906732043, 53.6965835572], [9.9899662758, 53.6959279948], [9.9897245703, 53.6957038495]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafd463a80",
+        "id": "0xaaab025687e0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc837d00"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9851773638, 53.5834023200], [9.9852306874, 53.5834958541], [9.9853213525, 53.5836548878], [9.9853213541, 53.5836548897], [9.9853991203, 53.5837421784]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaaafd6caca0",
+        "id": "0xaaaaff6fd250",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafed6e480"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9851773638, 53.5834023200], [9.9847845313, 53.5832730531], [9.9841628727, 53.5828085606], [9.9821053634, 53.5815557602], [9.9812201831, 53.5809734389], [9.9801451164, 53.5802563701], [9.9772259022, 53.5782373410], [9.9766481263, 53.5778295821], [9.9763589728, 53.5776255138]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafd6caca0",
+        "id": "0xaaaafe7b25f0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafeb43330"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9911211476, 53.5541105539], [9.9911530319, 53.5543767081], [9.9911557821, 53.5543987800], [9.9909189688, 53.5547535631], [9.9903678251, 53.5566022139], [9.9898748670, 53.5579915770], [9.9894488270, 53.5587195052], [9.9893013334, 53.5589715085]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafdab1b80",
+        "id": "0xaaab017d3c70",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab017d3b60"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0148670448, 53.5907332120], [10.0144181359, 53.5907243392], [10.0129658785, 53.5906956350], [10.0092306974, 53.5906061680], [10.0049164983, 53.5904792799], [10.0015201585, 53.5903728921], [10.0010716251, 53.5903588421]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafdb4ac20",
+        "id": "0xaaaafea611f0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab00b75a60"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0555154063, 53.5555402777], [10.0559597149, 53.5555011771], [10.0566655423, 53.5554322053], [10.0589267497, 53.5551853438], [10.0619344155, 53.5548008656], [10.0655635133, 53.5542772000], [10.0655967964, 53.5542724696], [10.0660336268, 53.5542103858]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaaafdb9c190",
+        "id": "0xaaaafe131290",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafc717940"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0288037582, 53.5601546531], [10.0287004331, 53.5604142872], [10.0281745790, 53.5619890055], [10.0277307273, 53.5631032282], [10.0276510103, 53.5632565396], [10.0270398501, 53.5642397534], [10.0268842915, 53.5644900072]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafdbc5620",
+        "id": "0xaaaafd24f880",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafd24f770"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9624139445, 53.5695841284], [9.9628629429, 53.5695770254], [9.9636227319, 53.5695650058], [9.9640330180, 53.5695375097], [9.9655165400, 53.5694184435], [9.9662261375, 53.5692678704], [9.9665782530, 53.5691712811], [9.9681479349, 53.5685177758], [9.9697566989, 53.5678150690], [9.9701185246, 53.5676570223]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaafdee8e10",
+        "id": "0xaaaafdee8f20",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaaff132070"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1021277553, 53.5983206083], [10.1025428774, 53.5984223903], [10.1028911275, 53.5985077761], [10.1043942371, 53.5989876253], [10.1057442639, 53.5994253055], [10.1085883951, 53.6003974427], [10.1098013111, 53.6010166006], [10.1113521739, 53.6020991193], [10.1135251633, 53.6036265523], [10.1145615036, 53.6043679572], [10.1162316056, 53.6057760050], [10.1170256612, 53.6065596868], [10.1173138069, 53.6068697469], [10.1175306840, 53.6071031165]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafe193710",
+        "id": "0xaaab000fcae0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaffaea690"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1071080838, 53.5423662451], [10.1067295426, 53.5425099070], [10.1040040459, 53.5435442582], [10.0992339260, 53.5454299894], [10.0978940426, 53.5459891571], [10.0968907540, 53.5465318188], [10.0967446573, 53.5466124246], [10.0964155176, 53.5467940199]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaaafe5c3ec0",
+        "id": "0xaaab024b21b0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab02834c90"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0022306705, 53.5513154820], [10.0026649373, 53.5513836226], [10.0034563119, 53.5515077964], [10.0041099618, 53.5516048050], [10.0073727752, 53.5520030598], [10.0074078512, 53.5519995568], [10.0078507941, 53.5519553212]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafe9c4870",
+        "id": "0xaaab02713640",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaaff185290"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0443534404, 53.5872208460], [10.0439257787, 53.5873023400], [10.0437105217, 53.5873433587], [10.0425332340, 53.5875940266], [10.0424148875, 53.5876368218], [10.0423564688, 53.5876390737], [10.0417162441, 53.5877472349], [10.0412126192, 53.5878153469], [10.0410538879, 53.5878571106], [10.0408638328, 53.5878624239], [10.0405048157, 53.5879240242], [10.0400620437, 53.5879688216]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafe9d9100",
+        "id": "0xaaab02583850",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafc78d860"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9763589728, 53.5776255138], [9.9760698194, 53.5774214445], [9.9752959421, 53.5768752777], [9.9724254730, 53.5748327792], [9.9713380229, 53.5740433840], [9.9698238201, 53.5728814727], [9.9693912577, 53.5722736544], [9.9692201405, 53.5717971985], [9.9691379494, 53.5715349847], [9.9691871454, 53.5706115153], [9.9692721463, 53.5703769715], [9.9697851207, 53.5696822505], [9.9699724557, 53.5693822836], [9.9700553277, 53.5687757319], [9.9701034647, 53.5679236141], [9.9701185246, 53.5676570223]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaafeb43330",
+        "id": "0xaaaafe6a1b90",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaaff132070"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9921194954, 53.5537054840], [9.9917040491, 53.5538069061], [9.9916459970, 53.5538268625], [9.9916222064, 53.5538910892], [9.9914871019, 53.5539102828], [9.9914514977, 53.5539297675], [9.9911211476, 53.5541105539]]
+      },
+      "properties": {
+        "dbg_lines": "U1,U2,U4",
+        "from": "0xaaaafeb470a0",
+        "id": "0xaaab02796ac0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }, 
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafdab1b80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9921194954, 53.5537054840], [9.9925287444, 53.5535955283], [9.9939733762, 53.5533059429], [9.9944118229, 53.5532480687]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaaafeb470a0",
+        "id": "0xaaaafc610f00",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab01e6ae40"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9853991203, 53.5837421784], [9.9856101795, 53.5839775190], [9.9856800220, 53.5840026506], [9.9857146840, 53.5840970072], [9.9857601769, 53.5841134457], [9.9868689302, 53.5852187698], [9.9879919354, 53.5862756070], [9.9881490076, 53.5863820731], [9.9882735503, 53.5864914244], [9.9889705004, 53.5872245752], [9.9889760770, 53.5872985763], [9.9890359255, 53.5873616409], [9.9890515890, 53.5873986518], [9.9891190729, 53.5874458620], [9.9893208579, 53.5876568515], [9.9894162527, 53.5876998396], [9.9894263479, 53.5877323975], [9.9895083815, 53.5877727638], [9.9895504615, 53.5878286338], [9.9902338319, 53.5883903995], [9.9906653875, 53.5886317605], [9.9909922943, 53.5888145924]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaaafed6e480",
+        "id": "0xaaaafe627560",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00a549b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2428071892, 53.6612185354], [10.2423706468, 53.6612811713], [10.2412217888, 53.6614460110], [10.2396780933, 53.6616544482], [10.2352437996, 53.6622415398], [10.2312299362, 53.6627860018], [10.2269630998, 53.6634040027], [10.2237128537, 53.6639014940], [10.2204496071, 53.6645102167], [10.2200211797, 53.6645901344]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaafedf7640",
+        "id": "0xaaaafedf7750",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01fba4b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9701185246, 53.5676570223], [9.9704764684, 53.5674958877], [9.9725895064, 53.5664992799], [9.9734398613, 53.5659086187], [9.9744690004, 53.5648583874], [9.9750339306, 53.5638222509], [9.9751628694, 53.5633074264], [9.9755172255, 53.5609273403], [9.9755877976, 53.5606068263], [9.9757675324, 53.5599879804], [9.9761291509, 53.5593215281], [9.9761298727, 53.5590731840], [9.9761523058, 53.5589467822], [9.9764548568, 53.5584212590], [9.9766001935, 53.5581688106]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaaff132070",
+        "id": "0xaaab00deae80",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab00dead70"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9701185246, 53.5676570223], [9.9701180341, 53.5673902789], [9.9701022533, 53.5670520299], [9.9692585974, 53.5650288126], [9.9692574052, 53.5646226436], [9.9693169365, 53.5643582359]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaaff132070",
+        "id": "0xaaaaff98cbd0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafd2623b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1372156143, 53.6943931580], [10.1372218499, 53.6941272401], [10.1372249194, 53.6939963371], [10.1373356055, 53.6918386821], [10.1373696833, 53.6914365902], [10.1376781169, 53.6890269722], [10.1377131889, 53.6889196314], [10.1380241932, 53.6881633174], [10.1383478927, 53.6876459319], [10.1384794311, 53.6874999564], [10.1402686772, 53.6856093983], [10.1422422429, 53.6835556531], [10.1455686360, 53.6801223227], [10.1457724805, 53.6798852653]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaff161020",
+        "id": "0xaaaafccf3c30",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc6bbd30"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0078507941, 53.5519553212], [10.0082931832, 53.5520014714], [10.0083221051, 53.5520044886], [10.0087900449, 53.5520737369], [10.0092230918, 53.5521445598]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaaaff185290",
+        "id": "0xaaab017937a0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00bd01e0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0078507941, 53.5519553212], [10.0076578088, 53.5517145500], [10.0075137727, 53.5516617401], [10.0070053278, 53.5513918090], [10.0066616596, 53.5510903674], [10.0065021149, 53.5508704033], [10.0063400935, 53.5504238903], [10.0063160815, 53.5503148243], [10.0062660702, 53.5500738596], [10.0061890027, 53.5495330115], [10.0061511130, 53.5492671049]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaff185290",
+        "id": "0xaaab005bbd40",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafca1b0e0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9440523921, 53.5928944818], [9.9441531484, 53.5926346914], [9.9447495242, 53.5910969609], [9.9449990729, 53.5906692250], [9.9458623351, 53.5893520843], [9.9469795058, 53.5876680839], [9.9470922246, 53.5874588340], [9.9476090312, 53.5863584248], [9.9478091210, 53.5854308340], [9.9481661405, 53.5835636318], [9.9478065976, 53.5823133394], [9.9477306439, 53.5820505286]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaaff1e9620",
+        "id": "0xaaab00f27190",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab00f27080"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9813330786, 53.5442397334], [9.9817814479, 53.5442554890], [9.9821448167, 53.5442842063], [9.9824117533, 53.5443411690], [9.9829848179, 53.5445472992], [9.9833690576, 53.5446855090]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaaff336650",
+        "id": "0xaaaaff3365c0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafceeb5d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0123684674, 53.5525013032], [10.0128111485, 53.5524561526], [10.0128870412, 53.5524415347], [10.0131378280, 53.5524253668], [10.0132764502, 53.5524006914], [10.0136483562, 53.5524057844], [10.0137948554, 53.5524251798], [10.0142283499, 53.5524376625], [10.0142678703, 53.5524254543], [10.0147072887, 53.5524313038], [10.0148549916, 53.5523900112], [10.0150160649, 53.5524552032], [10.0151482400, 53.5524701896], [10.0153175171, 53.5524631725], [10.0154297997, 53.5524995680], [10.0157007851, 53.5525313913], [10.0160814573, 53.5526730106]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1,U2,U4",
+        "from": "0xaaaaff4e3880",
+        "id": "0xaaab027c6db0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }, 
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab0272da80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9903072647, 53.5543545175], [9.9906715999, 53.5541990407], [9.9906968289, 53.5541980554], [9.9911211476, 53.5541105539]]
+      },
+      "properties": {
+        "dbg_lines": "U4,U2",
+        "from": "0xaaaaff4eeaf0",
+        "id": "0xaaab02900ef0",
+        "lines": [
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }, 
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaafdab1b80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9881491585, 53.5818091162], [9.9878479173, 53.5820069049], [9.9875308847, 53.5822086543], [9.9857138337, 53.5829008070], [9.9855896026, 53.5829878763], [9.9854978236, 53.5830849796], [9.9854466639, 53.5831889265], [9.9851773638, 53.5834023200]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaff4ef980",
+        "id": "0xaaab017e9560",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafd6caca0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9687386349, 53.5569411504], [9.9687957442, 53.5566765048], [9.9689014902, 53.5561864715], [9.9695195204, 53.5535749745], [9.9700124954, 53.5513258525], [9.9700726404, 53.5507768951], [9.9701018150, 53.5505106086]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaaff6368a0",
+        "id": "0xaaab017cf8a0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab00e0ead0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9527513614, 53.6347939582], [9.9528460510, 53.6345336236], [9.9528540409, 53.6345116565], [9.9528839407, 53.6342623579], [9.9528600659, 53.6339831331], [9.9525720554, 53.6332625354], [9.9523003443, 53.6328517418], [9.9501209438, 53.6304954698], [9.9497898957, 53.6299319467], [9.9497067882, 53.6296369930], [9.9497255984, 53.6293802818], [9.9497985593, 53.6292169357], [9.9499982954, 53.6288410714], [9.9502257805, 53.6284579127], [9.9503749446, 53.6282066701]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaaff7a9e70",
+        "id": "0xaaab01965a40",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab015194e0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2607137273, 53.6531657630], [10.2603745536, 53.6533402778], [10.2586476366, 53.6542288162], [10.2567878801, 53.6551549457], [10.2564440031, 53.6553261888]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaff943640",
+        "id": "0xaaab01f3f1d0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab001728f0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9518089324, 53.6202153774], [9.9516936058, 53.6199578970], [9.9507713831, 53.6180433255], [9.9506679368, 53.6175983411], [9.9507132870, 53.6168889355], [9.9513235099, 53.6149636329], [9.9513572737, 53.6135764142], [9.9512663492, 53.6132844601], [9.9511165544, 53.6128607472], [9.9508565935, 53.6124249181], [9.9485653578, 53.6100751753], [9.9467372247, 53.6081221365], [9.9465863830, 53.6078427596], [9.9457878784, 53.6055665926], [9.9453492500, 53.6041486668], [9.9452681617, 53.6038865327]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaaaff953b60",
+        "id": "0xaaab02256710",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab01fea0b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0159535093, 53.6751913858], [10.0162492827, 53.6749911523], [10.0165743865, 53.6747710615], [10.0166423596, 53.6747160800], [10.0174297242, 53.6739360383], [10.0177272698, 53.6735133345], [10.0186584948, 53.6714471754], [10.0194574124, 53.6696181590], [10.0200389158, 53.6681050874], [10.0201367278, 53.6674128499], [10.0200891830, 53.6663455443], [10.0196357706, 53.6651328791], [10.0193527111, 53.6644350210], [10.0177832250, 53.6612477058], [10.0176574181, 53.6609922065]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaff9efce0",
+        "id": "0xaaab016ac6f0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc962630"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0576245824, 53.5698550107], [10.0572083527, 53.5697547665], [10.0567359620, 53.5696409962], [10.0535213703, 53.5688280970], [10.0494249593, 53.5682172106], [10.0482104421, 53.5679957166], [10.0469763570, 53.5677486608], [10.0465507320, 53.5676634531]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaffa8dc70",
+        "id": "0xaaab014630a0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafd30dc50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1175306840, 53.6071031165], [10.1177475610, 53.6073364849], [10.1191297493, 53.6088237445], [10.1196136879, 53.6097420425], [10.1206702341, 53.6108992842], [10.1215247440, 53.6115579092], [10.1218476864, 53.6118566388], [10.1222043807, 53.6121023871], [10.1230653297, 53.6128903157], [10.1232104571, 53.6130475347], [10.1235139661, 53.6134206221], [10.1236166097, 53.6135214412], [10.1261965845, 53.6156779714], [10.1277795419, 53.6168630896], [10.1284350371, 53.6173742868], [10.1284350371, 53.6173742868], [10.1287069547, 53.6175863438]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaffaea690",
+        "id": "0xaaab01f34f70",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01ccd9e0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9958448195, 53.5506099866], [9.9953967523, 53.5505914038], [9.9953751063, 53.5505905061], [9.9951711534, 53.5505596816], [9.9947358596, 53.5504938932]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaaffdd0b90",
+        "id": "0xaaab007055f0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab00e474b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9958448195, 53.5506099866], [9.9956127811, 53.5508384690], [9.9956127811, 53.5508384690], [9.9955847259, 53.5508660942], [9.9935650087, 53.5525509936], [9.9932756876, 53.5527550983]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaaaffdd0b90",
+        "id": "0xaaaaff180700",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab0115b430"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9958448195, 53.5506099866], [9.9962808936, 53.5506739246], [9.9984444454, 53.5507682006], [10.0000831511, 53.5509785145], [10.0017964037, 53.5512473414], [10.0022306705, 53.5513154820]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaaaffdd0b90",
+        "id": "0xaaab00a0ecd0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafe9c4870"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2564440031, 53.6553261888], [10.2561001260, 53.6554974312], [10.2552193124, 53.6559360519], [10.2495491360, 53.6588007155], [10.2456608064, 53.6606005662], [10.2442352459, 53.6610136346], [10.2432437315, 53.6611558994], [10.2428071892, 53.6612185354]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab001728f0",
+        "id": "0xaaaafeb91870",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafedf7640"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9526794304, 53.5716819473], [9.9530425356, 53.5715249533], [9.9545847767, 53.5708342951], [9.9582186457, 53.5699408629], [9.9594872508, 53.5695230424], [9.9598494404, 53.5694638998], [9.9601540728, 53.5694394093], [9.9605501383, 53.5694581159], [9.9609632182, 53.5694845011], [9.9619653016, 53.5695714598], [9.9624139445, 53.5695841284]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab00244da0",
+        "id": "0xaaab01906660",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaafdee8e10"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1391664266, 53.5410157066], [10.1387225860, 53.5409747589], [10.1372184591, 53.5408250920], [10.1369275908, 53.5407502846], [10.1354139775, 53.5403390709], [10.1317787900, 53.5393127255], [10.1309603483, 53.5391690778], [10.1291838098, 53.5389956751], [10.1251321564, 53.5386206326], [10.1251302688, 53.5386204738], [10.1246855424, 53.5385830716]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab0024eb10",
+        "id": "0xaaaafdb4ad30",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaafc6733c0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1556525300, 53.6647367368], [10.1557948659, 53.6644843223], [10.1558566795, 53.6643747032], [10.1559016655, 53.6642344367], [10.1570305170, 53.6625775086], [10.1576283385, 53.6617932007], [10.1594849146, 53.6593878357], [10.1608057548, 53.6576897425], [10.1621032147, 53.6560894780], [10.1631581027, 53.6548249182], [10.1638351250, 53.6540346685], [10.1640967022, 53.6532808640], [10.1643477951, 53.6530601540]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00458340",
+        "id": "0xaaab00a39a80",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab021bf160"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1943651774, 53.6551074241], [10.1940825022, 53.6549005599], [10.1939214665, 53.6547827120], [10.1925914630, 53.6540652383], [10.1924393067, 53.6540026382], [10.1909152237, 53.6534514832], [10.1903285754, 53.6533200243], [10.1895162120, 53.6531459593], [10.1881692616, 53.6530001320], [10.1870504617, 53.6529236450], [10.1860365141, 53.6529387577], [10.1855874984, 53.6529454502]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00a04510",
+        "id": "0xaaaafff7d8e0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01dbd7b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9909922943, 53.5888145924], [9.9913247894, 53.5889938378], [9.9919023358, 53.5892995934], [9.9919215899, 53.5893350312], [9.9920461066, 53.5893989899], [9.9921502856, 53.5894328198], [9.9929525490, 53.5898300850], [9.9929525490, 53.5898300850], [9.9932974461, 53.5900008701]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaab00a549b0",
+        "id": "0xaaab017d5d90",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafddc8c50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0010716251, 53.5903588421], [10.0006230735, 53.5903449970], [9.9949901495, 53.5901999079], [9.9942824724, 53.5901241041], [9.9937465904, 53.5900014672], [9.9932974461, 53.5900008701]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab00b75a60",
+        "id": "0xaaaafd820140",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafddc8c50"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9947554338, 53.5999027220], [9.9947704928, 53.5996363318], [9.9947853256, 53.5993739416], [9.9948990539, 53.5980893685], [9.9953447815, 53.5967461590], [9.9959356616, 53.5951536035], [9.9960314683, 53.5948792826], [9.9961226303, 53.5946182591]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00b7a960",
+        "id": "0xaaaafcf07e00",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafcf07cf0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0092230918, 53.5521445598], [10.0096686238, 53.5521783755], [10.0096866405, 53.5521798486], [10.0098289388, 53.5521456386], [10.0099272030, 53.5521381095], [10.0100619958, 53.5521977957], [10.0102896701, 53.5522401794], [10.0103537562, 53.5522912928], [10.0105160869, 53.5522467499], [10.0119993017, 53.5523494844], [10.0123684674, 53.5525013032]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaab00bd01e0",
+        "id": "0xaaaafee67be0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaff4e3880"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0219943101, 53.6093058563], [10.0215884552, 53.6091916973], [10.0193035340, 53.6085489882], [10.0121427819, 53.6065043477], [10.0120126425, 53.6064689285], [10.0116043869, 53.6063578159]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00cd56f0",
+        "id": "0xaaab00cd5660",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01a39c40"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0249646438, 53.5540565974], [10.0250731611, 53.5543155203], [10.0254801291, 53.5549073038], [10.0260061066, 53.5559213925], [10.0264626941, 53.5564178766], [10.0266353509, 53.5565814250], [10.0279576657, 53.5576318766], [10.0285243473, 53.5583607027], [10.0288169494, 53.5591433023], [10.0288303601, 53.5598883306], [10.0288037582, 53.5601546531]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab00d88ac0",
+        "id": "0xaaaafcb3a890",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafdbc5620"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0249646438, 53.5540565974], [10.0253708337, 53.5541704847], [10.0254900357, 53.5542039064], [10.0263141215, 53.5543270542], [10.0292738541, 53.5544456601], [10.0354782060, 53.5552266667], [10.0376288320, 53.5555044406], [10.0397667835, 53.5557439415], [10.0412064962, 53.5557446321], [10.0416556536, 53.5557448475]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab00d88ac0",
+        "id": "0xaaab022244f0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab02555dc0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9766001935, 53.5581688106], [9.9767455301, 53.5579163608], [9.9771712947, 53.5571767989], [9.9778051342, 53.5565369362], [9.9783293863, 53.5561934374], [9.9791772570, 53.5558326753], [9.9803833362, 53.5555582793], [9.9813967301, 53.5554986616], [9.9834846513, 53.5555559335], [9.9860320252, 53.5555656305], [9.9864811786, 53.5555667903]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab00dead70",
+        "id": "0xaaaafc6bac50",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaafc6bab40"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9701018150, 53.5505106086], [9.9701298707, 53.5502442781], [9.9702207348, 53.5493307299], [9.9702650163, 53.5476932950], [9.9702688505, 53.5469179790], [9.9703570751, 53.5465949321], [9.9704893268, 53.5463721538], [9.9707871387, 53.5461244467], [9.9709418602, 53.5460451234], [9.9713160278, 53.5458974890]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab00e0ead0",
+        "id": "0xaaab01beb330",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab01e85ae0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9947358596, 53.5504938932], [9.9943005659, 53.5504281048], [9.9940450197, 53.5503894826], [9.9937674534, 53.5503061749], [9.9936410666, 53.5502633838], [9.9922622177, 53.5496646738], [9.9920013696, 53.5496144019], [9.9917001563, 53.5495775999], [9.9909619791, 53.5495158555], [9.9906932221, 53.5494718902], [9.9904245897, 53.5493744000], [9.9900285062, 53.5491661572], [9.9896973450, 53.5490360888], [9.9892902293, 53.5489467826], [9.9890760442, 53.5489279420], [9.9888761428, 53.5489232286], [9.9878998692, 53.5489443047], [9.9875410072, 53.5488737524], [9.9873990448, 53.5488115253], [9.9872238751, 53.5487107315], [9.9871333300, 53.5486315434], [9.9869595792, 53.5483854590]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab00e474b0",
+        "id": "0xaaab00947f60",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab014b2a30"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0522447644, 53.5935566687], [10.0526932704, 53.5935710228], [10.0541378474, 53.5936172552], [10.0553039669, 53.5935526133], [10.0579408989, 53.5933964297], [10.0602552617, 53.5932497311], [10.0615480160, 53.5931455475], [10.0684718223, 53.5919250273], [10.0689789885, 53.5918791642], [10.0693618366, 53.5917397754]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab00e65ef0",
+        "id": "0xaaab01a6a080",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaab01522790"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0167942119, 53.6396613323], [10.0167811762, 53.6393951553], [10.0167285008, 53.6383195478], [10.0167533388, 53.6376676999], [10.0170052480, 53.6370582270], [10.0175083919, 53.6364788683], [10.0179492489, 53.6361621192], [10.0181257028, 53.6360491592], [10.0191487804, 53.6356159015], [10.0228660717, 53.6340877447], [10.0262744355, 53.6327142857], [10.0263013664, 53.6327032596], [10.0266709780, 53.6325519328]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00ecf670",
+        "id": "0xaaaafcee01f0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc9ab370"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9477306439, 53.5820505286], [9.9476460259, 53.5817886506], [9.9474923217, 53.5813129587], [9.9475358813, 53.5808474496], [9.9476913534, 53.5805299356], [9.9478244260, 53.5803567093], [9.9479958287, 53.5802078608], [9.9484755397, 53.5798968368], [9.9511110187, 53.5782235251], [9.9513436761, 53.5780050786], [9.9518124273, 53.5773715538], [9.9519186144, 53.5770382753], [9.9519124781, 53.5768636730], [9.9517283181, 53.5763443373], [9.9516357783, 53.5760833703]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab00f27080",
+        "id": "0xaaab0286e720",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab016f96d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0172760350, 53.6492107718], [10.0172995437, 53.6489449078], [10.0173019300, 53.6489179207], [10.0170135746, 53.6441402880], [10.0168072475, 53.6399275076], [10.0167942119, 53.6396613323]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00f6d2d0",
+        "id": "0xaaab00ecf780",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00ecf670"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0231167043, 53.5534156623], [10.0235385601, 53.5535072735], [10.0238197199, 53.5535683306], [10.0243003724, 53.5537305291], [10.0246183935, 53.5538866352], [10.0249646438, 53.5540565974]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U2,U4",
+        "from": "0xaaab00fe5ec0",
+        "id": "0xaaab02469700",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab00d88ac0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0315571480, 53.6207466093], [10.0314761533, 53.6204845737], [10.0312587761, 53.6200293128], [10.0308496817, 53.6192059175], [10.0301697762, 53.6182933045], [10.0298936957, 53.6176143534], [10.0291701867, 53.6156628014], [10.0281443104, 53.6127798838], [10.0274869135, 53.6117854521], [10.0265508323, 53.6109907925], [10.0255607790, 53.6104294887], [10.0246021326, 53.6100393780], [10.0224001650, 53.6094200149], [10.0219943101, 53.6093058563]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab00ffd510",
+        "id": "0xaaab00ea8c00",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00cd56f0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0076034341, 53.5406334119], [10.0071600574, 53.5406760975], [10.0064225333, 53.5407471018], [10.0057017077, 53.5408008801], [10.0029356772, 53.5407305600], [9.9996599255, 53.5405592806], [9.9988978482, 53.5405135732], [9.9984509609, 53.5404867700]]
+      },
+      "properties": {
+        "dbg_lines": "U4",
+        "from": "0xaaab010210e0",
+        "id": "0xaaab02313f30",
+        "lines": [
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafc604b20"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1502060054, 53.6752704397], [10.1504243885, 53.6750379411], [10.1508927193, 53.6745159897], [10.1526403799, 53.6726333413], [10.1535203227, 53.6716083149], [10.1539106491, 53.6707819243], [10.1546113732, 53.6679798807], [10.1552551627, 53.6654414090], [10.1555101941, 53.6649891499], [10.1556525300, 53.6647367368]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab010e5d30",
+        "id": "0xaaab00b8f930",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00458340"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9932756876, 53.5527550983], [9.9929713615, 53.5529513504], [9.9929713615, 53.5529513504], [9.9923368175, 53.5533605486], [9.9922278775, 53.5534465474], [9.9921194954, 53.5537054840]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab0115b430",
+        "id": "0xaaaafdc86e90",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafeb470a0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9502588411, 53.6407338766], [9.9503722948, 53.6404762291], [9.9512799048, 53.6384150369], [9.9524301964, 53.6356118389], [9.9524938063, 53.6355020581], [9.9526566718, 53.6350542911], [9.9527513614, 53.6347939582]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab012baad0",
+        "id": "0xaaab00947ea0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaaff7a9e70"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0334238518, 53.6279955915], [10.0335485828, 53.6277397053], [10.0336263008, 53.6275802657], [10.0336854078, 53.6270661691], [10.0336200087, 53.6266594201], [10.0328995425, 53.6248747774], [10.0320539848, 53.6231546396], [10.0318456095, 53.6225256539], [10.0317620963, 53.6222053279], [10.0315944480, 53.6210120959], [10.0315571480, 53.6207466093]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab012d3930",
+        "id": "0xaaab01f3db80",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00ffd510"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2804486415, 53.6531166423], [10.2801807390, 53.6529029746], [10.2789935938, 53.6519561447], [10.2782929913, 53.6514634120], [10.2774039565, 53.6508474800], [10.2765278405, 53.6504001796], [10.2750863681, 53.6498979980], [10.2748157186, 53.6498093024], [10.2745002748, 53.6497220560], [10.2739781742, 53.6495946417], [10.2727884322, 53.6494116886], [10.2714852476, 53.6493293016], [10.2696907924, 53.6494872556], [10.2679268017, 53.6497032281], [10.2670671078, 53.6499676913], [10.2664049837, 53.6502784933], [10.2648509960, 53.6510513127], [10.2632449675, 53.6518633426], [10.2610529010, 53.6529912474], [10.2607137273, 53.6531657630]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01302860",
+        "id": "0xaaab01979240",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaff943640"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1475988203, 53.6780197255], [10.1478241310, 53.6777895730], [10.1482255841, 53.6773794899], [10.1489737489, 53.6765909043], [10.1499723628, 53.6754976717], [10.1502060054, 53.6752704397]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01403090",
+        "id": "0xaaab0281e2e0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab010e5d30"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9869595792, 53.5483854590], [9.9867882232, 53.5481387779], [9.9864811547, 53.5476967238], [9.9859478736, 53.5471623352], [9.9854418393, 53.5466348745], [9.9842087399, 53.5451602003], [9.9837928479, 53.5448717179], [9.9837302007, 53.5448441915], [9.9833690576, 53.5446855090]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab014b2a30",
+        "id": "0xaaaaffc8aa30",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafceeb5d0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9503749446, 53.6282066701], [9.9505241086, 53.6279554261], [9.9505679105, 53.6278816483], [9.9507098836, 53.6275967332], [9.9508727618, 53.6271810840], [9.9509897411, 53.6261398071], [9.9511872417, 53.6248828214], [9.9514817417, 53.6236108180], [9.9522935415, 53.6222914679], [9.9523568100, 53.6220454349], [9.9523386326, 53.6217493049], [9.9519061542, 53.6204754718], [9.9518089324, 53.6202153774]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab015194e0",
+        "id": "0xaaab0228a850",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaaff953b60"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0693618366, 53.5917397754], [10.0691023625, 53.5915221686], [10.0691023625, 53.5915221686], [10.0691005695, 53.5915206649], [10.0689477572, 53.5914689445], [10.0669688711, 53.5905582258], [10.0651005223, 53.5896638770], [10.0650018597, 53.5896035350], [10.0645950073, 53.5893172405], [10.0643299609, 53.5890555721], [10.0640168671, 53.5885447391], [10.0638903638, 53.5881043599], [10.0638914458, 53.5877239500], [10.0641297219, 53.5870908711], [10.0642385722, 53.5869158520], [10.0643082436, 53.5868406011], [10.0645245774, 53.5866069420]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01522790",
+        "id": "0xaaab01ea6300",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01ea61f0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9934934339, 53.6779221351], [9.9939257543, 53.6778499744], [9.9942947825, 53.6777905860], [9.9947355464, 53.6777394041]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01545b80",
+        "id": "0xaaab01b18180",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc811c80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0014464633, 53.6781369096], [10.0018914267, 53.6781731822], [10.0029959926, 53.6782632241], [10.0056968357, 53.6784482549], [10.0059518673, 53.6784541304], [10.0070398593, 53.6783741831], [10.0092901484, 53.6778543810], [10.0104323228, 53.6775446075], [10.0120909447, 53.6770706526], [10.0132900234, 53.6765465422], [10.0156393557, 53.6753815369], [10.0159535093, 53.6751913858]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01555120",
+        "id": "0xaaaaff9efdf0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaff9efce0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0051577083, 53.5540332354], [10.0056037892, 53.5540644138], [10.0074240383, 53.5541916380], [10.0083369540, 53.5541657132], [10.0091621706, 53.5540348638], [10.0097796622, 53.5538610576], [10.0104023956, 53.5535622118], [10.0114958655, 53.5529701607], [10.0121072925, 53.5527183890], [10.0123684674, 53.5525013032]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab01684440",
+        "id": "0xaaaafd5e3690",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaaff4e3880"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0189750184, 53.5566210665], [10.0193389591, 53.5567774320], [10.0194772713, 53.5568368571], [10.0221808551, 53.5579788003], [10.0228319397, 53.5581640579], [10.0262017654, 53.5590925049], [10.0263769965, 53.5591578015], [10.0284319672, 53.5600049585], [10.0288037582, 53.5601546531]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01696480",
+        "id": "0xaaab002470d0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafdbc5620"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9516357783, 53.5760833703], [9.9515432384, 53.5758224016], [9.9514101228, 53.5754470037], [9.9512216410, 53.5751376369], [9.9508446221, 53.5748014400], [9.9499113088, 53.5742514375], [9.9496924860, 53.5740742656], [9.9495449059, 53.5738672570], [9.9494752468, 53.5736605432], [9.9494706360, 53.5734725205], [9.9495185573, 53.5733117828], [9.9495947169, 53.5731823129], [9.9498867156, 53.5729049151], [9.9514117921, 53.5721518013], [9.9522984071, 53.5718231753], [9.9526794304, 53.5716819473]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab016f96d0",
+        "id": "0xaaab006bc3a0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab00244da0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9893013334, 53.5589715085], [9.9891538398, 53.5592235103], [9.9886033670, 53.5601640134], [9.9885543064, 53.5604024466], [9.9885421811, 53.5609540694], [9.9885886559, 53.5611717147], [9.9893537338, 53.5628712495], [9.9894494354, 53.5634352388], [9.9894836153, 53.5636820199], [9.9894597505, 53.5638572973], [9.9887887178, 53.5664592054], [9.9887419097, 53.5671038940], [9.9888138287, 53.5687896538], [9.9889329266, 53.5708622653], [9.9890634704, 53.5719055824], [9.9891106421, 53.5725396985], [9.9891304636, 53.5728061497]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab017d3b60",
+        "id": "0xaaaafcf886d0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01db4710"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0679580094, 53.5817461242], [10.0680978645, 53.5814927255], [10.0683453613, 53.5810442907], [10.0688638099, 53.5804735346], [10.0695680405, 53.5792795244], [10.0698686219, 53.5780877789], [10.0699072754, 53.5761934150], [10.0699856723, 53.5743741066], [10.0701422421, 53.5735811332], [10.0700858588, 53.5732183695], [10.0699168990, 53.5729371989], [10.0695363147, 53.5725647242], [10.0691727916, 53.5723375349], [10.0689979323, 53.5722489765], [10.0685922618, 53.5721235817], [10.0672294505, 53.5718473149], [10.0668043800, 53.5717611449]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab018b7290",
+        "id": "0xaaab00b7a8d0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafc8d6d60"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9860303783, 53.6854486293], [9.9860571276, 53.6851831014], [9.9861167976, 53.6845907783], [9.9862340505, 53.6831290276], [9.9862925534, 53.6825393488], [9.9863645710, 53.6822310273], [9.9867363827, 53.6815509666], [9.9885724795, 53.6796596628], [9.9887642121, 53.6794797521], [9.9891431494, 53.6792189010], [9.9899649289, 53.6788314867], [9.9928855773, 53.6780607331], [9.9930742607, 53.6780177112], [9.9934934339, 53.6779221351]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab019561a0",
+        "id": "0xaaaafcec9710",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01545b80"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0116043869, 53.6063578159], [10.0111925241, 53.6062514928], [10.0091409384, 53.6057220397], [10.0040108730, 53.6044318757], [10.0029751921, 53.6041308396], [9.9999374397, 53.6031513106], [9.9984901639, 53.6027213882], [9.9963546889, 53.6021130311], [9.9956784587, 53.6017937371], [9.9953541995, 53.6015646247], [9.9952143479, 53.6014389055], [9.9950003352, 53.6012217323], [9.9947781713, 53.6008812613], [9.9947119015, 53.6006727879], [9.9947403748, 53.6001691106], [9.9947554338, 53.5999027220]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01a39c40",
+        "id": "0xaaab000d4cf0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00b7a960"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1287069547, 53.6175863438], [10.1289788724, 53.6177983998], [10.1289788724, 53.6177983998], [10.1291037554, 53.6178957899], [10.1309046550, 53.6194240903], [10.1343140830, 53.6223492161], [10.1368761930, 53.6245371289], [10.1386003297, 53.6259999151], [10.1395144644, 53.6267716161], [10.1397726576, 53.6269895770]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01ccd9e0",
+        "id": "0xaaab01e02000",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafca102b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9891304636, 53.5728061497], [9.9891502851, 53.5730725992], [9.9891607068, 53.5732126928], [9.9890980478, 53.5737950532], [9.9888036924, 53.5747745589], [9.9889262127, 53.5771074866], [9.9888191476, 53.5796947950], [9.9886166665, 53.5812484450], [9.9885209147, 53.5814349443], [9.9883871475, 53.5815829717], [9.9881491585, 53.5818091162]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01db4710",
+        "id": "0xaaab02566b90",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaff4ef980"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1855874984, 53.6529454502], [10.1851385154, 53.6529528719], [10.1836952548, 53.6529809339], [10.1832379668, 53.6530126992], [10.1815661276, 53.6531789362], [10.1810712456, 53.6532394112], [10.1803079968, 53.6533507288], [10.1785685187, 53.6536399725], [10.1747817332, 53.6542812585], [10.1709107481, 53.6549254196], [10.1696455583, 53.6551089964], [10.1693322749, 53.6551424277], [10.1683220499, 53.6551272574], [10.1675547216, 53.6550220417], [10.1668962530, 53.6548551357], [10.1659988234, 53.6544933403], [10.1657684182, 53.6543665562], [10.1655006254, 53.6541960749], [10.1653728627, 53.6541019121], [10.1648494085, 53.6535971254], [10.1646497655, 53.6532571820], [10.1643477951, 53.6530601540]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01dbd7b0",
+        "id": "0xaaab007ab2b0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab021bf160"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9944118229, 53.5532480687], [9.9948361858, 53.5531606417], [9.9950429574, 53.5531272665], [9.9959257786, 53.5530084569], [9.9963784103, 53.5529693154], [9.9981232970, 53.5527150014], [9.9993384512, 53.5526899232], [9.9998953117, 53.5527230338], [10.0002785971, 53.5527704414], [10.0009761709, 53.5529259316], [10.0016244152, 53.5531327433], [10.0032740826, 53.5536948516], [10.0041395288, 53.5538816064], [10.0047134580, 53.5539939686], [10.0051577083, 53.5540332354]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab01e6ae40",
+        "id": "0xaaaaff33e2a0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab01684440"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9713160278, 53.5458974890], [9.9717178078, 53.5457781855], [9.9745614490, 53.5449437810], [9.9767842736, 53.5442400393], [9.9771444726, 53.5441916499], [9.9785052771, 53.5442184522], [9.9798866747, 53.5442866552], [9.9808845888, 53.5442542826], [9.9813330786, 53.5442397334]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab01e85ae0",
+        "id": "0xaaaaffe5d930",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaaff336650"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0645245774, 53.5866069420], [10.0647409113, 53.5863732816], [10.0660773378, 53.5849297894], [10.0662679818, 53.5847073493], [10.0672115092, 53.5830986565], [10.0678181543, 53.5819995213], [10.0679580094, 53.5817461242]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01ea61f0",
+        "id": "0xaaaaff131150",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab018b7290"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2200211797, 53.6645901344], [10.2195843756, 53.6646521214], [10.2181173999, 53.6648574006], [10.2151254495, 53.6653034919], [10.2132997874, 53.6654397125], [10.2122183392, 53.6653792410], [10.2109356232, 53.6651598012], [10.2099054976, 53.6648610857], [10.2080016359, 53.6640937325], [10.2057481969, 53.6631159115], [10.2043895700, 53.6625023872], [10.2038256502, 53.6621156331], [10.2025290861, 53.6611799049], [10.2007615861, 53.6598704621], [10.1950731205, 53.6556254989], [10.1946478526, 53.6553142874], [10.1943651774, 53.6551074241]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab01fba4b0",
+        "id": "0xaaab02746690",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab00a04510"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.9452681617, 53.6038865327], [9.9451870734, 53.6036243969], [9.9442185416, 53.6004932795], [9.9434799685, 53.5980805696], [9.9434659214, 53.5979862519], [9.9434550902, 53.5972616944], [9.9437449457, 53.5937605735], [9.9439584561, 53.5931551692], [9.9440523921, 53.5928944818]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab01fea0b0",
+        "id": "0xaaab016eeb90",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaaaff1e9620"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.1499328071, 53.5287247376], [10.1499454514, 53.5289916191], [10.1500529279, 53.5312600439], [10.1500242315, 53.5334223420], [10.1499944880, 53.5343107143], [10.1490661795, 53.5361699841], [10.1489281230, 53.5363605803], [10.1483795617, 53.5370092173], [10.1470685033, 53.5384994754], [10.1458689351, 53.5398435931], [10.1452637403, 53.5403417914], [10.1446440265, 53.5406607084], [10.1437817743, 53.5409531795], [10.1427781114, 53.5411352101], [10.1417432763, 53.5411851796], [10.1409829168, 53.5411404330], [10.1396118419, 53.5410500899], [10.1391664266, 53.5410157066]]
+      },
+      "properties": {
+        "dbg_lines": "U2",
+        "from": "0xaaab020a6fa0",
+        "id": "0xaaab019b29c0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }],
+        "to": "0xaaab0024eb10"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0870365696, 53.5536954805], [10.0870378859, 53.5536989493], [10.0870896937, 53.5538354769], [10.0868854384, 53.5538574821], [10.0868795489, 53.5538581166]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab022cf6b0",
+        "id": "0xaaab0291a870",
+        "lines": [
+          {
+            "color": "e2001a",
+            "direction": "0xaaab02650e00",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "direction": "0xaaab02650e00",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab02650e00"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0321621944, 53.5890499093], [10.0317171607, 53.5890859546], [10.0287075917, 53.5893297118], [10.0280634174, 53.5894210408], [10.0268332904, 53.5897269167], [10.0253888303, 53.5899742904], [10.0230534349, 53.5901160857], [10.0196090029, 53.5904841881], [10.0167068019, 53.5907695752], [10.0153159536, 53.5907420848], [10.0148670448, 53.5907332120]]
+      },
+      "properties": {
+        "dbg_lines": "U3",
+        "from": "0xaaab025543b0",
+        "id": "0xaaab021a82c0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }],
+        "to": "0xaaaafdb4ac20"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0416556536, 53.5557448475], [10.0421048111, 53.5557450629], [10.0482071129, 53.5557479899], [10.0512732312, 53.5557364078], [10.0534807525, 53.5557169608], [10.0550709720, 53.5555788711], [10.0555154063, 53.5555402777]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab02555dc0",
+        "id": "0xaaab00e8bc80",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaaafdb9c190"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0010918546, 53.5476970453], [10.0006474340, 53.5477357015], [9.9988178417, 53.5477536529], [9.9985520712, 53.5477740168], [9.9982541935, 53.5478068842], [9.9978391267, 53.5479130170], [9.9975295553, 53.5480347487], [9.9971566810, 53.5482679450], [9.9968983403, 53.5485328758], [9.9967297705, 53.5488447772], [9.9962098542, 53.5501823320], [9.9961336609, 53.5502856355], [9.9960548694, 53.5503741138], [9.9960548694, 53.5503741138], [9.9958448195, 53.5506099866]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab02584390",
+        "id": "0xaaab010b35d0",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaaffdd0b90"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0748507487, 53.5924879771], [10.0744246837, 53.5924036110], [10.0744203435, 53.5924039014], [10.0741703131, 53.5923562085], [10.0739339765, 53.5923301416], [10.0739042464, 53.5923053466], [10.0738109405, 53.5923066311], [10.0737325990, 53.5922713818], [10.0734012513, 53.5922080651], [10.0717837919, 53.5919421089], [10.0716568703, 53.5918890847], [10.0715195249, 53.5919092762], [10.0704322291, 53.5918345761], [10.0703733134, 53.5918204589], [10.0702368854, 53.5918235966], [10.0698089588, 53.5917651263], [10.0693618366, 53.5917397754]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U1",
+        "from": "0xaaab025e0360",
+        "id": "0xaaab024be970",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01522790"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0748507487, 53.5924879771], [10.0752731627, 53.5925785921], [10.0759617608, 53.5927263078], [10.0762009180, 53.5927261628], [10.0766940572, 53.5928438673], [10.0796526025, 53.5934349086], [10.0798554916, 53.5934840284], [10.0799710100, 53.5934967432], [10.0801326585, 53.5935514134], [10.0803654418, 53.5935906545], [10.0985950728, 53.5974544350], [10.1017126331, 53.5982188260], [10.1021277553, 53.5983206083]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab025e0360",
+        "id": "0xaaaaff09a850",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaaafe193710"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.2866447361, 53.6626178109], [10.2864995558, 53.6623659530], [10.2853925611, 53.6604454958], [10.2842091352, 53.6585420117], [10.2822282420, 53.6555298570], [10.2816604778, 53.6546825209], [10.2806907289, 53.6533408451], [10.2804486415, 53.6531166423]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab025f2760",
+        "id": "0xaaaafdabcb10",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01302860"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0868795489, 53.5538581166], [10.0868699217, 53.5538589981], [10.0865522002, 53.5538880923], [10.0864661321, 53.5538401868], [10.0864590238, 53.5538362303]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab02650e00",
+        "id": "0xaaab028f74f0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "direction": "0xaaab02834390",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "direction": "0xaaab02834390",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab02834390"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0160814573, 53.5526730106], [10.0165122835, 53.5525975563], [10.0166666355, 53.5525705233], [10.0176818064, 53.5526763386], [10.0177857945, 53.5526714562], [10.0179017063, 53.5527235367], [10.0182795033, 53.5527468526], [10.0195480361, 53.5528967694], [10.0198176629, 53.5529120482], [10.0202894003, 53.5529667787], [10.0203898806, 53.5530004510], [10.0204764460, 53.5530013032], [10.0211889744, 53.5530982915], [10.0212350487, 53.5530952936], [10.0223374554, 53.5532464384], [10.0226948486, 53.5533240510], [10.0231167043, 53.5534156623]]
+      },
+      "properties": {
+        "dbg_lines": "U3,U2,U4",
+        "from": "0xaaab0272da80",
+        "id": "0xaaaaff6cb6a0",
+        "lines": [
+          {
+            "color": "000000",
+            "id": "0xaaab13860720",
+            "label": "U3"
+          }, 
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab00fe5ec0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0160814573, 53.5526730106], [10.0161253462, 53.5529385700], [10.0161284742, 53.5529574968], [10.0162395666, 53.5530356065], [10.0164215127, 53.5532214939], [10.0165529863, 53.5533673402], [10.0167314271, 53.5537014772], [10.0171404137, 53.5554504966], [10.0172885613, 53.5556639188], [10.0176616198, 53.5560059673], [10.0178759325, 53.5561488457], [10.0186110778, 53.5564647005], [10.0189750184, 53.5566210665]]
+      },
+      "properties": {
+        "dbg_lines": "U1",
+        "from": "0xaaab0272da80",
+        "id": "0xaaab00247160",
+        "lines": [
+          {
+            "color": "006ab3",
+            "id": "0xaaab138609d0",
+            "label": "U1"
+          }],
+        "to": "0xaaab01696480"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0236293358, 53.5352316639], [10.0238191983, 53.5354735883], [10.0241088603, 53.5358426753], [10.0242110296, 53.5361299651], [10.0241734143, 53.5366521256], [10.0240189957, 53.5370102972], [10.0236334840, 53.5374697666], [10.0233333838, 53.5377135079], [10.0225602968, 53.5382082015], [10.0214182030, 53.5386777332], [10.0208869145, 53.5388185885], [10.0194513483, 53.5390520749], [10.0162490772, 53.5395599504], [10.0140435324, 53.5398906136], [10.0109318198, 53.5403053580], [10.0100205447, 53.5404007063], [10.0080468108, 53.5405907262], [10.0076034341, 53.5406334119]]
+      },
+      "properties": {
+        "dbg_lines": "U4",
+        "from": "0xaaab0281e8e0",
+        "id": "0xaaab015561c0",
+        "lines": [
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab010210e0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0864590238, 53.5538362303], [10.0865944767, 53.5536509552], [10.0866216357, 53.5536499665], [10.0867022017, 53.5536588037], [10.0870365696, 53.5536954805]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab02834390",
+        "id": "0xaaab028372d0",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "direction": "0xaaab022cf6b0",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab022cf6b0"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10.0964155176, 53.5467940199], [10.0960863779, 53.5469756144], [10.0932641815, 53.5485326579], [10.0929114622, 53.5488109617], [10.0899962240, 53.5525400339], [10.0896968968, 53.5527579100], [10.0896413349, 53.5528151521], [10.0896128889, 53.5528140872], [10.0894850961, 53.5529386738], [10.0893972322, 53.5529694892], [10.0889078915, 53.5532469758], [10.0881050440, 53.5535191281], [10.0880200263, 53.5535947694], [10.0878783896, 53.5535847543], [10.0875308617, 53.5536511410], [10.0875053034, 53.5537041550], [10.0874856152, 53.5537014345], [10.0870365696, 53.5536954805]]
+      },
+      "properties": {
+        "dbg_lines": "U2,U4",
+        "from": "0xaaab02834c90",
+        "id": "0xaaab01eae920",
+        "lines": [
+          {
+            "color": "e2001a",
+            "id": "0xaaab13860880",
+            "label": "U2"
+          }, 
+          {
+            "color": "0098a1",
+            "id": "0xaaab138605d0",
+            "label": "U4"
+          }],
+        "to": "0xaaab022cf6b0"
+      }
+    }]
+}
