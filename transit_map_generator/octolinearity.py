@@ -7,6 +7,12 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
         constraints = []
         e = edge_index(graph, edge)
 
+        # Basic constraints that limit sum of direction variables
+        constraints.extend([
+            f"a{e} + b{e} <= 1",
+            f"c{e} + d{e} <= 1"
+        ])
+
         # Get main and secondary directions
         main_direction = edge.get('mainDirection', 0)
         secondary_direction = edge.get('secondaryDirection')
