@@ -1,0 +1,9 @@
+# Core dependencies
+typing-extensions>=4.0.0
+pathlib>=1.0.1
+
+# SVG generation
+svgwrite>=1.4.0
+
+# For JSON handling
+json5>=0.9.0 
