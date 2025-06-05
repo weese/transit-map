@@ -145,7 +145,7 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
         
         # Sum of angle differences
         angles = ' + '.join(
-            f"{4 * coef} {q}"
+            f"{coef} {q}"
             for q, coef in zip(variables.integer['q'], variables.coefficients['q'])
         )
         

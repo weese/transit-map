@@ -111,7 +111,10 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
             
             if all(d == 2 for d in degrees) or middle.get('dummy', False):
                 if edge['target'] == a_edge['source'] or edge['source'] == a_edge['target']:
-                    if edge.get('sourceDirections', []) == a_edge.get('sourceDirections', []):
+                    # Check if both edges have sourceDirections and they are equal
+                    edge_source_dirs = edge.get('sourceDirections', None)
+                    a_edge_source_dirs = a_edge.get('sourceDirections', None)
+                    if edge_source_dirs is not None and a_edge_source_dirs is not None and edge_source_dirs == a_edge_source_dirs:
                         a_e = edge_index(graph, a_edge)
                         constraints.extend([
                             f"a{e} - a{a_e} = 0",
@@ -120,7 +123,10 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
                             f"d{e} - d{a_e} = 0"
                         ])
                 else:
-                    if edge.get('targetDirections', []) == a_edge.get('sourceDirections', []):
+                    # Check if both edges have their respective directions and they are equal
+                    edge_target_dirs = edge.get('targetDirections', None)
+                    a_edge_source_dirs = a_edge.get('sourceDirections', None)
+                    if edge_target_dirs is not None and a_edge_source_dirs is not None and edge_target_dirs == a_edge_source_dirs:
                         a_e = edge_index(graph, a_edge)
                         constraints.extend([
                             f"a{e} - b{a_e} = 0",
