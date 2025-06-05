@@ -1,16 +1,41 @@
 from typing import Dict, Any, List, Callable
 from .util import node_index, edge_index
 
+def create_set_product(settings: Dict[str, Any]) -> Callable[[str, str, str], List[str]]:
+    """Create constraints to linearize the product of a continuous and a binary variable."""
+    def set_product(product: str, continuous: str, binary: str) -> List[str]:
+        upper_bound = settings['max_edge_length'] + 1
+        return [
+            f"{product} - {upper_bound} {binary} <= 0",
+            f"{product} - {continuous} <= 0",
+            f"{product} - {continuous} - {upper_bound} {binary} >= -{upper_bound}"
+        ]
+    return set_product
+
 def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict[str, Any], Dict[str, Any]], List[str]]:
     """Create constraints to maintain octolinear edge directions."""
+    set_product = create_set_product(settings)
+    
     def octolinearity_constraints(graph: Dict[str, Any], edge: Dict[str, Any]) -> List[str]:
         constraints = []
         e = edge_index(graph, edge)
+
+        # Set helper variables for products
+        constraints.extend(set_product(f"pa{e}", f"l{e}", f"a{e}"))
+        constraints.extend(set_product(f"pb{e}", f"l{e}", f"b{e}"))
+        constraints.extend(set_product(f"pc{e}", f"l{e}", f"c{e}"))
+        constraints.extend(set_product(f"pd{e}", f"l{e}", f"d{e}"))
 
         # Basic constraints that limit sum of direction variables
         constraints.extend([
             f"a{e} + b{e} <= 1",
             f"c{e} + d{e} <= 1"
+        ])
+
+        # Add coordinate constraints
+        constraints.extend([
+            f"vx{node_index(graph, edge['target'])} - vx{node_index(graph, edge['source'])} - pa{e} + pb{e} = 0",
+            f"vy{node_index(graph, edge['target'])} - vy{node_index(graph, edge['source'])} - pc{e} + pd{e} = 0"
         ])
 
         # Get main and secondary directions
