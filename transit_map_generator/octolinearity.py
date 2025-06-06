@@ -26,16 +26,16 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
         constraints.extend(set_product(f"pc{e}", f"l{e}", f"c{e}"))
         constraints.extend(set_product(f"pd{e}", f"l{e}", f"d{e}"))
 
-        # Basic constraints that limit sum of direction variables
-        constraints.extend([
-            f"a{e} + b{e} <= 1",
-            f"c{e} + d{e} <= 1"
-        ])
-
         # Add coordinate constraints
         constraints.extend([
             f"vx{node_index(graph, edge['target'])} - vx{node_index(graph, edge['source'])} - pa{e} + pb{e} = 0",
             f"vy{node_index(graph, edge['target'])} - vy{node_index(graph, edge['source'])} - pc{e} + pd{e} = 0"
+        ])
+
+        # Basic constraints that limit sum of direction variables
+        constraints.extend([
+            f"a{e} + b{e} <= 1",
+            f"c{e} + d{e} <= 1"
         ])
 
         # Get main and secondary directions
