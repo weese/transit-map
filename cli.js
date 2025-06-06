@@ -7,12 +7,23 @@ const getStdin = require('get-stdin')
 const writeFile = require('write')
 const graphToSVG = require('svg-transit-map')
 const svgToString = require('virtual-dom-stringify')
+const { Writable } = require('stream')
 
 const transitMap = require('.')
+const prepareGraph = require('./prepare-graph')
+const createGenerateLP = require('./generate-lp')
 const pkg = require('./package.json')
 
+const SETTINGS = {
+	offset: 10000,
+	maxWidth: 300,
+	maxHeight: 300,
+	minEdgeLength: 1,
+	maxEdgeLength: 8
+}
+
 const argv = mri(process.argv.slice(2), {
-	boolean: ['help', 'h', 'version', 'v', 'silent', 's', 'graph', 'g', 'invert-y', 'y']
+	boolean: ['help', 'h', 'version', 'v', 'silent', 's', 'graph', 'g', 'invert-y', 'y', 'debug', 'd']
 })
 
 if (argv.help === true || argv.h === true) {
@@ -28,6 +39,7 @@ Options:
 	--silent       -s  Disable solver logging to stderr.
 	--graph        -g  Return JSON graph instead of SVG map.
 	--invert-y     -y  Invert the Y axis in SVG result.
+	--debug        -d  Output the generated LP and stop.
 
 	--help         -h  Show this help message.
 	--version      -v  Show the version number.
@@ -48,13 +60,30 @@ const config = {
 	verbose: !(argv.silent || argv.s || null),
 	outputFile: argv['output-file'] || argv.o || null,
 	returnGraph: argv['graph'] || argv.g || false,
-	invertY: argv['invert-y'] || argv.y || false
+	invertY: argv['invert-y'] || argv.y || false,
+	debug: argv['debug'] || argv.d || false
 }
 
 const main = async () => {
 	const stdin = await getStdin()
 	if (!stdin) throw new Error('No input network found in stdin.')
-    const graph = JSON.parse(stdin)
+	const graph = JSON.parse(stdin)
+
+	if (config.debug) {
+		const preparedGraph = prepareGraph(graph)
+		const generateLP = createGenerateLP(preparedGraph, SETTINGS)
+		let lp = ''
+		const stream = new Writable({
+			write(chunk, encoding, callback) {
+				lp += chunk.toString()
+				callback()
+			}
+		})
+		generateLP(stream)
+		if (config.outputFile) await writeFile(config.outputFile, lp)
+		else process.stdout.write(lp)
+		process.exit(0)
+	}
 
 	const solution = await transitMap(graph, l.pick(config, ['workDir', 'verbose']))
 
@@ -65,7 +94,7 @@ const main = async () => {
 		result = svgToString(svg)
 	}
 
-	if (config.outputFile) await writeFile(outputFile, result)
+	if (config.outputFile) await writeFile(config.outputFile, result)
 	else process.stdout.write(result)
 }
 
