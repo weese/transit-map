@@ -44,6 +44,5 @@ def add_directions(graph: Dict[str, Any]) -> Dict[str, Any]:
         # Set source and target directions
         edge['sourceDirections'] = closest_direction_ids(angle)
         edge['targetDirections'] = [mod8(d + 4) for d in edge['sourceDirections']]
-        print(edge)
 
     return graph 

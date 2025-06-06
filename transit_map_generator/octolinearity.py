@@ -39,8 +39,9 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
         ])
 
         # Get main and secondary directions
-        main_direction = edge.get('mainDirection', 0)
-        secondary_direction = edge.get('secondaryDirection')
+        sourceDirections = edge.get('sourceDirections', [None, None])
+        main_direction = sourceDirections[0]
+        secondary_direction = len(sourceDirections) > 1 and sourceDirections[1] or None
 
         # Add constraints based on direction
         if main_direction == 0:  # 9 o'clock

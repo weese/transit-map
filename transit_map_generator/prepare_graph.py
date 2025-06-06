@@ -24,4 +24,7 @@ def prepare_graph(network_graph: Dict[str, Any]) -> Dict[str, Any]:
                 for line in edge['metadata']['lines']
             ]
     
+    # Add directions to the graph edges
+    network_graph = add_directions(network_graph)
+    
     return network_graph 
