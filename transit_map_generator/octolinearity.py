@@ -39,9 +39,9 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
         ])
 
         # Get main and secondary directions
-        sourceDirections = edge.get('sourceDirections', [None, None])
+        sourceDirections = edge.get('sourceDirections', [0, 0])
         main_direction = sourceDirections[0]
-        secondary_direction = len(sourceDirections) > 1 and sourceDirections[1] or None
+        secondary_direction = len(sourceDirections) > 1 and sourceDirections[1] or 0
 
         # Add constraints based on direction
         if main_direction == 0:  # 9 o'clock
@@ -131,6 +131,9 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
         adjacent_line_edges = [e for e in graph['edges'] if 
             bool(set(e['metadata']['lines']) & set(edge['metadata']['lines'])) and 
             len(set([e['source'], e['target']]) & set([edge['source'], edge['target']])) == 1]
+
+        # TODO: remove this
+        # adjacent_line_edges = []
 
         for a_edge in adjacent_line_edges:
             degrees = [

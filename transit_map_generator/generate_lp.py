@@ -87,7 +87,12 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
                     # Set coefficients for same/different lines
                     outer_lines = set(outer['metadata']['lines'])
                     inner_lines = set(inner['metadata']['lines'])
-                    variables.coefficients['q'].append(1.0 if outer_lines & inner_lines else 0.25)
+                    share_lines = bool(outer_lines & inner_lines)
+                    variables.coefficients['q'].append(1.0 if share_lines else 0.25)
+                    
+                    # For edges sharing lines, limit angle to >= 90°
+                    if share_lines:
+                        constraints.append(f"q{suffix} <= 2")
                     
                     # Add constraints
                     constraints.append(
@@ -145,7 +150,7 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
         
         # Sum of angle differences
         angles = ' + '.join(
-            f"{coef} {q}"
+            f"{4 * coef} {q}"
             for q, coef in zip(variables.integer['q'], variables.coefficients['q'])
         )
         
@@ -199,5 +204,8 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
         for var_type, vars_list in variables.binary.items():
             for var in vars_list:
                 write_tab(var)
-                
+
+        # 6. End
+        write('End')
+
     return generate_lp 
