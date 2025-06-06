@@ -135,7 +135,7 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
             output_stream.write(text + '\n')
             
         def write_tab(text: str) -> None:
-            output_stream.write('  ' + text + '\n')
+            output_stream.write(' ' + text + '\n')
             
         # 1. Objective function
         write('Minimize')
