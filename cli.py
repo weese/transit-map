@@ -71,9 +71,7 @@ def main():
         if args.graph:
             result = json.dumps(graph)
         else:
-            # svg = graph_to_svg(solution, args.invert_y)
-            # result = svg_to_string(svg)
-            result = json.dumps(solution)
+            result = graph_to_svg(solution, args.invert_y)
 
         # Output result
         if args.output_file:
