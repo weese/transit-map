@@ -18,15 +18,15 @@ def parse_args() -> argparse.Namespace:
                        help='Directory to store intermediate files. Default: unique tmp dir.')
     parser.add_argument('--output-file', '-o',
                        help='File to store result (instead of stdout).')
-    parser.add_argument('--silent', '-s', action='store_true',
-                       help='Disable solver logging to stderr.')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                       help='Enable solver logging to stderr.')
     parser.add_argument('--graph', '-g', action='store_true',
                        help='Return JSON graph instead of SVG map.')
     parser.add_argument('--invert-y', '-y', action='store_true',
                        help='Invert the Y axis in SVG result.')
     parser.add_argument('--debug', '-d', action='store_true',
                        help='Output the generated LP and stop.')
-    parser.add_argument('--version', '-v', action='version',
+    parser.add_argument('--version', '-V', action='version',
                        version='%(prog)s 1.0.0')
     return parser.parse_args()
 
@@ -48,7 +48,7 @@ def main():
 
     config = {
         'work_dir': args.tmp_dir,
-        'verbose': not args.silent,
+        'verbose': args.verbose,
     }
 
     try:
@@ -71,8 +71,9 @@ def main():
         if args.graph:
             result = json.dumps(graph)
         else:
-            svg = graph_to_svg(solution, args.invert_y)
-            result = svg_to_string(svg)
+            # svg = graph_to_svg(solution, args.invert_y)
+            # result = svg_to_string(svg)
+            result = json.dumps(solution)
 
         # Output result
         if args.output_file:
