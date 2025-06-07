@@ -20,8 +20,15 @@ A Python tool to generate metro-style transit maps using Mixed Integer Linear Pr
    - Linux: `apt-get install scip` or equivalent for your distribution
    - Windows: Download from [SCIP website](https://www.scipopt.org/index.php#download)
 3. Install Python dependencies:
+
    ```bash
    pip install -r requirements.txt
+   ```
+
+4. Install svg-transit-map:
+
+   ```bash
+   npm install -g svg-transit-map
    ```
 
 ## Usage
