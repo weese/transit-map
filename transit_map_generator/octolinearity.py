@@ -133,7 +133,7 @@ def create_octolinearity_constraints(settings: Dict[str, Any]) -> Callable[[Dict
             len(set([e['source'], e['target']]) & set([edge['source'], edge['target']])) == 1]
 
         # TODO: remove this
-        # adjacent_line_edges = []
+        adjacent_line_edges = []
 
         for a_edge in adjacent_line_edges:
             degrees = [

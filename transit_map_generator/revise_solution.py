@@ -24,8 +24,9 @@ def create_revise_solution(graph: Dict[str, Any], settings: Dict[str, Any]) -> C
         for i, node in enumerate(graph_copy['nodes']):
             # Get the new coordinates from the solution
             # Subtract the offset to get back to the original coordinate space
-            node['metadata']['x'] = round(solution[f'vx{i}'] - settings['offset'], 5)
-            node['metadata']['y'] = round(solution[f'vy{i}'] - settings['offset'], 5)
+            if f'vx{i}' in solution and f'vy{i}' in solution:
+                node['metadata']['x'] = round(solution[f'vx{i}'] - settings['offset'], 5)
+                node['metadata']['y'] = round(solution[f'vy{i}'] - settings['offset'], 5)
         
         return graph_copy
     

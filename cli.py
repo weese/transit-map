@@ -51,37 +51,32 @@ def main():
         'verbose': args.verbose,
     }
 
-    try:
-        if args.debug:
-            # Generate and output LP only
-            solver = Solver(graph)
-            output = io.StringIO()
-            solver.generate_lp(output)
-            lp = output.getvalue()
-            if args.output_file:
-                Path(args.output_file).write_text(lp)
-            else:
-                print(lp)
-            sys.exit(0)
-
-        # Generate solution
-        solution = transit_map(graph, config)
-
-        # Generate output
-        if args.graph:
-            result = json.dumps(graph)
-        else:
-            result = graph_to_svg(solution, args.invert_y)
-
-        # Output result
+    if args.debug:
+        # Generate and output LP only
+        solver = Solver(graph)
+        output = io.StringIO()
+        solver.generate_lp(output)
+        lp = output.getvalue()
         if args.output_file:
-            Path(args.output_file).write_text(result)
+            Path(args.output_file).write_text(lp)
         else:
-            print(result)
+            print(lp)
+        sys.exit(0)
 
-    except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
-        sys.exit(1)
+    # Generate solution
+    solution = transit_map(graph, config)
+
+    # Generate output
+    if args.graph:
+        result = json.dumps(graph)
+    else:
+        result = graph_to_svg(solution, args.invert_y)
+
+    # Output result
+    if args.output_file:
+        Path(args.output_file).write_text(result)
+    else:
+        print(result)
 
 if __name__ == '__main__':
     main() 

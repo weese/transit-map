@@ -91,8 +91,10 @@ def create_generate_lp(graph: Dict[str, Any], settings: Dict[str, Any]) -> Calla
                     variables.coefficients['q'].append(1.0 if share_lines else 0.25)
                     
                     # For edges sharing lines, limit angle to >= 90°
-                    if share_lines:
-                        constraints.append(f"q{suffix} <= 2")
+
+                    # TODO: remove this
+                    # if share_lines:
+                    #     constraints.append(f"q{suffix} <= 2")
                     
                     # Add constraints
                     constraints.append(
